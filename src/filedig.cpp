@@ -14,6 +14,7 @@
 #include <regex>
 //#include "../thirdparty/include/doctotext_c_api.h"
 #include "../thirdparty/include/StringEncode.hpp"
+#include "uitl.hpp"
 
 
 std::string FileDig::getFileType(const std::string& filePath) {
@@ -44,13 +45,9 @@ std::string FileDig::getFileContent(const std::string& filePath) {
             //     filecontent = doctotext_extracted_data_get_text(text_data);
             //     doctotext_free_extracted_data(text_data);
             // }
-            char currentPath[4096];
-            GetModuleFileNameA(NULL,currentPath,4096);
-			char* p = strrchr(currentPath, '\\');   
-			if (p) *p = 0;
-
+            std::string currentPath = GetCurrentModulePath();
             char cmd[8192];
-            sprintf(cmd, "\"\"%s\\doctotext\\doctotext.exe\"  \"%s\"\"", currentPath, STRINGENCODE::U2A(filePath).c_str());
+            sprintf(cmd, "\"\"%s\\doctotext\\doctotext.exe\"  \"%s\"\"", currentPath.c_str(), STRINGENCODE::U2A(filePath).c_str());
             FILE* fp = _popen(cmd, "r");
             if(fp)
             {

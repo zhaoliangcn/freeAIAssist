@@ -1,6 +1,18 @@
 @echo off
 chcp 65001
 cd /d "%~dp0"
+
+rem 清理旧的UI头文件
+if exist ui_*.h (
+    del ui_*.h
+    if %errorlevel% neq 0 (
+        echo 清理ui_*.h文件失败，请检查文件权限
+        pause
+        exit /b 1
+    )
+)
+
+
 rem Set Visual Studio 2022 x64 environment variables
 call "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvars64.bat"
 

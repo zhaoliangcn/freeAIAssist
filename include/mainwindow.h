@@ -10,10 +10,11 @@
 #include <QJsonDocument>
 #include "httpconfigdialog.h"
 #include "aiassistantconfigdialog.h"
-#include "texttovoice.h"
 #include "speechwindow.h"
 
-
+#include <QDragEnterEvent>
+#include <QDropEvent>
+#include <QMimeData>
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -38,6 +39,10 @@ private slots:
 
     void on_pushButton_3_clicked();
 
+protected:
+    void dragEnterEvent(QDragEnterEvent *event) override;
+    void dropEvent(QDropEvent *event) override;
+
 private:
     void SimpleRequest();
     void RequestWithContext();
@@ -49,7 +54,6 @@ private:
     QString assistantrole;
     HttpConfigDialog configdlg;
     AiAssistantConfigDialog assistconfig;
-    TextToVoice ttv;
     SpeechWindow  speechwindow;
 };
 #endif // MAINWINDOW_H

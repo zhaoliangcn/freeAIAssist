@@ -6,11 +6,14 @@
 #include "filedig.h"
 #include "ContentInject.hpp"
 
-MainWindow::MainWindow(QWidget *parent)
-    : QMainWindow(parent)
-    , ui(new Ui::MainWindow)
+MainWindow::MainWindow(QWidget *parent) :
+    QMainWindow(parent),
+    ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    
+    // 启用拖放支持
+    setAcceptDrops(true);
     networkManager = new QNetworkAccessManager(this);
     connect(networkManager, &QNetworkAccessManager::finished, this, &MainWindow::handleNetworkReply);
     this->resize(800, 600);
@@ -56,7 +59,6 @@ void MainWindow::handleNetworkReply(QNetworkReply *reply)
                                 QString content = messageObj["content"].toString();
                                 ui->textEdit->append(content); // 将解析后的内容添加到 QTextEdit 控件中
                                  speechwindow.SpeekText(content);
-                                //ttv.convertTextToSpeech(content, "output.mp3");
                         
                             }
                         }
@@ -302,4 +304,63 @@ void MainWindow::RequestWithContext()
     request.setHeader(QNetworkRequest::ContentTypeHeader, "application/json");
 
     networkManager->post(request, postData);
+}
+
+// 添加拖放事件处理函数
+void MainWindow::dragEnterEvent(QDragEnterEvent *event)
+{
+    if (event->mimeData()->hasUrls()) {
+        // 获取鼠标位置
+        QPoint pos = event->pos();
+        
+        // 判断鼠标是否在 textEditFileContent 控件上
+        if (ui->textEditFileContent->geometry().contains(pos)) {
+            event->acceptProposedAction();
+        }
+        // 判断鼠标是否在 textEditFileContent2 控件上
+        else if (ui->textEditFileContent2->geometry().contains(pos)) {
+            event->acceptProposedAction();
+        }
+    }
+}
+
+void MainWindow::dropEvent(QDropEvent *event)
+{
+    const QMimeData *mimeData = event->mimeData();
+    if (mimeData->hasUrls()) {
+        QList<QUrl> urlList = mimeData->urls();
+        if (!urlList.isEmpty()) {
+            QString filePath = urlList.first().toLocalFile();
+            QPoint pos = event->pos();
+
+            // 判断拖放位置并填充相应的文本框
+            if (ui->textEditFileContent->geometry().contains(pos)) {
+                // 处理文件并填充到 textEditFileContent
+                std::string filecontent;
+                FileDig filedig;
+                filecontent = filedig.getFileContent(filePath.toStdString());
+                if (filecontent.size() > 4096) {
+                    size_t pos = filecontent.find("\n", 4096);
+                    filecontent = filecontent.substr(0, pos);
+                }
+                QFileInfo fileInfo(filePath);
+                QString fileName = fileInfo.fileName();
+                ui->lineEditFilePath1->setText(fileName);
+                ui->textEditFileContent->setText(fileName + "\n" + filecontent.c_str());
+            } else if (ui->textEditFileContent2->geometry().contains(pos)) {
+                // 处理文件并填充到 textEditFileContent2
+                std::string filecontent;
+                FileDig filedig;
+                filecontent = filedig.getFileContent(filePath.toStdString());
+                if (filecontent.size() > 4096) {
+                    size_t pos = filecontent.find("\n", 4096);
+                    filecontent = filecontent.substr(0, pos);
+                }
+                QFileInfo fileInfo(filePath);
+                QString fileName = fileInfo.fileName();
+                ui->lineEditFilePath2->setText(fileName);
+                ui->textEditFileContent2->setText(fileName + "\n" + filecontent.c_str());
+            }
+        }
+    }
 }

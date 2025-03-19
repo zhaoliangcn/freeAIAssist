@@ -8,3 +8,4 @@ ui_*.h
 include_temp
 ui_temp
 .qmake.stash
+.vscode/
