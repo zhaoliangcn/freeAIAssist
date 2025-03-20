@@ -1366,7 +1366,7 @@ debug\aiassistantconfigdialog.obj: src\aiassistantconfigdialog.cpp include\aiass
 
 debug\filedig.obj: src\filedig.cpp include\filedig.h \
 		thirdparty\include\StringEncode.hpp \
-		include\uitl.hpp
+		include\util.hpp
 
 debug\speechwindow.obj: src\speechwindow.cpp include\speechwindow.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtWidgets\QDialog \

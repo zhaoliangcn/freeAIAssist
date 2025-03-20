@@ -57,32 +57,39 @@
 QT_BEGIN_NAMESPACE
 namespace Ui { class SpeechWindow; }
 QT_END_NAMESPACE
+
+
 SpeechWindow::SpeechWindow(QWidget *parent)
-    : QDialog(parent),
-    ui(new Ui::SpeechWindow),
-    m_speech(0)
+    : QDialog(parent),  // 调用父类QDialog的构造函数
+    ui(new Ui::SpeechWindow),  // 创建UI对象
+    m_speech(0)  // 初始化语音引擎指针为nullptr
 {
+    // 设置UI界面
     ui->setupUi(this);
+    // 设置日志过滤规则，启用语音相关日志
     QLoggingCategory::setFilterRules(QStringLiteral("qt.speech.tts=true \n qt.speech.tts.*=true"));
 
-    // 连接滑块和数值框的信号
+    // 连接音量滑块和数值框的信号
     connect(ui->volume, &QSlider::valueChanged, ui->spinBoxVolume, &QSpinBox::setValue);
     connect(ui->spinBoxVolume, QOverload<int>::of(&QSpinBox::valueChanged), ui->volume, &QSlider::setValue);
     
+    // 连接语速滑块和数值框的信号
     connect(ui->rate, &QSlider::valueChanged, ui->spinBoxRate, &QSpinBox::setValue);
     connect(ui->spinBoxRate, QOverload<int>::of(&QSpinBox::valueChanged), ui->rate, &QSlider::setValue);
     
+    // 连接音调滑块和数值框的信号
     connect(ui->pitch, &QSlider::valueChanged, ui->spinBoxPitch, &QSpinBox::setValue);
     connect(ui->spinBoxPitch, QOverload<int>::of(&QSpinBox::valueChanged), ui->pitch, &QSlider::setValue);
 
-    // Populate engine selection list
-    ui->engine->addItem("Default", QString("default"));
-    const auto engines = QTextToSpeech::availableEngines();
+    // 初始化引擎选择列表
+    ui->engine->addItem("Default", QString("default"));  // 添加默认引擎选项
+    const auto engines = QTextToSpeech::availableEngines();  // 获取可用引擎
     for (const QString &engine : engines)
-        ui->engine->addItem(engine, engine);
-    ui->engine->setCurrentIndex(0);
-    engineSelected(0);
+        ui->engine->addItem(engine, engine);  // 添加每个引擎到选择列表
+    ui->engine->setCurrentIndex(0);  // 设置默认选中第一个引擎
+    engineSelected(0);  // 初始化选中的引擎
 
+    // 连接按钮和控件的信号到对应的槽函数
     connect(ui->speakButton, &QPushButton::clicked, this, &SpeechWindow::speak);
     connect(ui->pitch, &QSlider::valueChanged, this, &SpeechWindow::setPitch);
     connect(ui->rate, &QSlider::valueChanged, this, &SpeechWindow::setRate);
@@ -156,17 +163,29 @@ void SpeechWindow::stateChanged(QTextToSpeech::State state)
 
 void SpeechWindow::engineSelected(int index)
 {
+    // 获取当前选择的引擎名称
     QString engineName = ui->engine->itemData(index).toString();
+    
+    // 删除旧的语音引擎实例
     delete m_speech;
+    
+    // 根据选择的引擎创建新的语音引擎实例
     if (engineName == "default")
         m_speech = new QTextToSpeech(this);
     else
         m_speech = new QTextToSpeech(engineName, this);
+    
+    // 断开语言选择框的信号连接
     disconnect(ui->language, static_cast<void (QComboBox::*)(int)>(&QComboBox::currentIndexChanged), this, &SpeechWindow::languageSelected);
+    
+    // 清空语言选择框
     ui->language->clear();
-    // Populate the languages combobox before connecting its signal.
+    
+    // 获取当前语音引擎支持的所有语言
     const QVector<QLocale> locales = m_speech->availableLocales();
     QLocale current = m_speech->locale();
+    
+    // 将支持的语言添加到语言选择框中
     for (const QLocale &locale : locales) {
         QString name(QString("%1 (%2)")
                      .arg(QLocale::languageToString(locale.language()))
@@ -176,17 +195,25 @@ void SpeechWindow::engineSelected(int index)
         if (locale.name() == current.name())
             current = locale;
     }
+    
+    // 设置语音引擎的语速、音调和音量
     setRate(ui->rate->value());
     setPitch(ui->pitch->value());
     setVolume(ui->volume->value());
+    
+    // 连接控制按钮的信号
     connect(ui->stopButton, &QPushButton::clicked, m_speech, &QTextToSpeech::stop);
     connect(ui->pauseButton, &QPushButton::clicked, m_speech, &QTextToSpeech::pause);
     connect(ui->resumeButton, &QPushButton::clicked, m_speech, &QTextToSpeech::resume);
 
+    // 连接语音引擎的状态和语言改变信号
     connect(m_speech, &QTextToSpeech::stateChanged, this, &SpeechWindow::stateChanged);
     connect(m_speech, &QTextToSpeech::localeChanged, this, &SpeechWindow::localeChanged);
 
+    // 重新连接语言选择框的信号
     connect(ui->language, static_cast<void (QComboBox::*)(int)>(&QComboBox::currentIndexChanged), this, &SpeechWindow::languageSelected);
+    
+    // 更新当前语言
     localeChanged(current);
 }
 
@@ -203,21 +230,33 @@ void SpeechWindow::voiceSelected(int index)
 
 void SpeechWindow::localeChanged(const QLocale &locale)
 {
+    // 将当前语言转换为QVariant类型
     QVariant localeVariant(locale);
+    // 在语言选择框中设置当前选择的语言
     ui->language->setCurrentIndex(ui->language->findData(localeVariant));
 
+    // 断开语音选择框的信号连接
     disconnect(ui->voice, static_cast<void (QComboBox::*)(int)>(&QComboBox::currentIndexChanged), this, &SpeechWindow::voiceSelected);
+    // 清空语音选择框
     ui->voice->clear();
 
+    // 获取当前语言下可用的所有语音
     m_voices = m_speech->availableVoices();
+    // 获取当前使用的语音
     QVoice currentVoice = m_speech->voice();
+    
+    // 遍历所有可用语音，添加到语音选择框中
     for (const QVoice &voice : qAsConst(m_voices)) {
+        // 格式化显示语音信息：名称 - 性别 - 年龄
         ui->voice->addItem(QString("%1 - %2 - %3").arg(voice.name())
                           .arg(QVoice::genderName(voice.gender()))
                           .arg(QVoice::ageName(voice.age())));
+        // 如果当前语音匹配，设置为选中状态
         if (voice.name() == currentVoice.name())
             ui->voice->setCurrentIndex(ui->voice->count() - 1);
     }
+    
+    // 重新连接语音选择框的信号
     connect(ui->voice, static_cast<void (QComboBox::*)(int)>(&QComboBox::currentIndexChanged), this, &SpeechWindow::voiceSelected);
 }
 

@@ -14,7 +14,7 @@
 #include <regex>
 //#include "../thirdparty/include/doctotext_c_api.h"
 #include "../thirdparty/include/StringEncode.hpp"
-#include "uitl.hpp"
+#include "util.hpp"
 
 
 std::string FileDig::getFileType(const std::string& filePath) {
@@ -27,8 +27,9 @@ std::string FileDig::getFileContent(const std::string& filePath) {
 
     std::string filecontent;
     std::string filetype = getFileType(filePath);
-    std::regex pattern("(doc|docx|xls|xlsx|ppt|pptx)");
-    if(std::regex_match(filetype, pattern))
+    std::regex pattern_office("(doc|docx|xls|xlsx|ppt|pptx)");
+    std::regex pattern_plaintext("(txt|csv|md|rtf|html|htm|xml|json|yaml|yml|log|conf|ini|cfg)");
+    if(std::regex_match(filetype, pattern_office))
     {
         int verbose = 0;
         try
@@ -65,6 +66,15 @@ std::string FileDig::getFileContent(const std::string& filePath) {
 		}
 
 
+    }
+    else if(std::regex_match(filetype, pattern_plaintext))
+    {
+        std::ifstream file(filePath);
+        if(!file.is_open()) return "";
+
+        std::stringstream buffer;
+        buffer << file.rdbuf();
+        return buffer.str();
     }
     else
     {
