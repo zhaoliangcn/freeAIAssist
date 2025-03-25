@@ -67,9 +67,7 @@ copy %QT_LIB_DIR%\Qt5Guid.dll %BUILD_OUTPUT_DIR%
 copy %QT_LIB_DIR%\Qt5Widgetsd.dll %BUILD_OUTPUT_DIR%
 copy %QT_LIB_DIR%\Qt5Networkd.dll %BUILD_OUTPUT_DIR%
 copy %QT_LIB_DIR%\Qt5TextToSpeechd.dll %BUILD_OUTPUT_DIR%
-copy %QT_LIB_DIR%\Qt5Guid.dll %BUILD_OUTPUT_DIR%
-copy %QT_LIB_DIR%\Qt5Widgetsd.dll %BUILD_OUTPUT_DIR%
-copy %QT_LIB_DIR%\Qt5Networkd.dll %BUILD_OUTPUT_DIR%
+
 rem 可以根据项目实际依赖添加更多的库
 
 rem 拷贝 platforms 文件夹到构建输出目录

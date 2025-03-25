@@ -281,6 +281,15 @@ void SpeechWindow::on_speakButton_clicked()
     ui->pauseButton->setEnabled(true);
     ui->resumeButton->setEnabled(false);
     ui->stopButton->setEnabled(true);
+        #ifndef _WIN32
+    char cmd[4096];
+    sprintf(cmd,"espeak-ng \"%s\" -v zh -s 240",ui->plainTextEdit->toPlainText().toStdString().c_str());
+    FILE* fp = popen(cmd ,"r");
+    if(fp)
+    {
+        pclose(fp);
+    }
+    #endif 
 }
 
 void SpeechWindow::on_pauseButton_clicked()

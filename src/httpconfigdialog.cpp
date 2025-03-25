@@ -18,9 +18,11 @@ HttpConfigDialog::HttpConfigDialog(QWidget *parent) :
     // 连接网络管理器完成信号到处理响应槽函数
     connect(networkManager, &QNetworkAccessManager::finished, this, &HttpConfigDialog::handleTestResponse);
     // 设置默认URL
-    ui->lineEditUrl->setText("http://localhost:1234/v1/chat/completions");
+    ui->comboBoxUrl->setCurrentText("http://localhost:1234/v1/chat/completions");
     // 设置默认模型名称
-    ui->lineEditModel->setText("qwen2.5-coder-3b-instruct");
+    ui->comboBoxModel->setCurrentText("qwen2.5-coder-3b-instruct");
+
+    setToken("sk-yNhfdrrAbhSAyKQr34E569Db02504302A369747b32664d9e");
     
     // 设置按钮文字
     ui->buttonBox->button(QDialogButtonBox::Ok)->setText(u8"确定");
@@ -34,17 +36,27 @@ HttpConfigDialog::~HttpConfigDialog()
 
 QString HttpConfigDialog::getUrl() const
 {
-    return ui->lineEditUrl->text();  // 返回URL输入框的内容
+    return ui->comboBoxUrl->currentText();  // 返回URL输入框的内容
 }
 
 QString HttpConfigDialog::getModel() const
 {
-    return ui->lineEditModel->text();  // 返回模型名称输入框的内容
+    return ui->comboBoxModel->currentText();  // 返回模型名称选择框的内容
+}
+
+QString HttpConfigDialog::getToken() const
+{
+    return ui->lineEditToken->text();  // 返回访问令牌输入框的内容
+}
+
+void HttpConfigDialog::setToken(const QString &token)
+{
+    ui->lineEditToken->setText(token);  // 设置访问令牌输入框的内容
 }
 
 void HttpConfigDialog::testConnection()
 {
-    QString url = ui->lineEditUrl->text();  // 获取URL
+    QString url = ui->comboBoxUrl->currentText();  // 获取URL
     if (url.isEmpty()) {  // 检查URL是否为空
         QMessageBox::warning(this, tr(u8"警告"), tr(u8"请先输入服务器地址"));
         return;
@@ -64,7 +76,16 @@ void HttpConfigDialog::handleTestResponse(QNetworkReply *reply)
 
     if (reply->error() == QNetworkReply::NoError) {  // 检查是否有错误
         QMessageBox::information(this, tr(u8"成功"), tr(u8"连接测试成功！"));
-    } else {
+    }
+    else if(reply->error() == QNetworkReply::ContentNotFoundError)
+    {
+        QMessageBox::information(this, tr(u8"成功"), tr(u8"连接测试成功！"));
+    }
+    else if(reply->error() == QNetworkReply::AuthenticationRequiredError) 
+    {
+        QMessageBox::critical(this, tr(u8"错误"), tr(u8"连接测试失败：%1").arg(reply->errorString()));
+    }
+    else {
         QMessageBox::critical(this, tr(u8"错误"), tr(u8"连接测试失败：%1").arg(reply->errorString()));
     }
 

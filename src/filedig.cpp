@@ -1,10 +1,29 @@
 ﻿#include "filedig.h"
+#ifdef _WIN32   
 #include <windows.h>
+#include <io.h> // for _close() and _get_osfhandle() functions
+#else
+#ifndef _popen 
+#define _popen popen
+#endif
+#ifndef _pclose
+#define _pclose pclose
+#endif
+#ifndef _fileno
+#define _fileno fileno
+#endif
+#ifndef _fflush
+#define _fflush fflush
+#endif
+#ifndef _errno
+#define _errno errno
+#endif
+#endif 
 #include <iostream>
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include <io.h> // for _close() and _get_osfhandle() functions
+
 //#include <fcntl.h> // for _O_NOINHERIT flag
 #include <cstdio> // for fileno() and fflush() functions if needed
 #include <cerrno> // for error checking if needed

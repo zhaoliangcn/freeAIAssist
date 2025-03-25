@@ -15,6 +15,8 @@ public:
     explicit AiAssistantConfigDialog(QWidget *parent = nullptr);
     ~AiAssistantConfigDialog();
     QString getAssistantIdentity() const;
+    QString getSystemPrompt() const;
+    void setSystemPrompt(const QString &prompt);
 
 private slots:
     void onAccepted();

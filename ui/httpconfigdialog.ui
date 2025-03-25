@@ -69,10 +69,30 @@ QLabel {
       </widget>
      </item>
      <item row="0" column="1">
-      <widget class="QLineEdit" name="lineEditUrl">
-       <property name="placeholderText">
-        <string>输入服务器URL地址</string>
+      <widget class="QComboBox" name="comboBoxUrl">
+       <property name="editable">
+        <bool>true</bool>
        </property>
+       <item>
+        <property name="text">
+         <string>http://localhost:1234/v1/chat/completions</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>http://127.0.0.1:11434/chat</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>http://192.168.2.200:1234/v1/chat/completions</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>http://localhost:3000/v1/chat/completions</string>
+        </property>
+       </item>
       </widget>
      </item>
      <item row="1" column="0">
@@ -83,9 +103,43 @@ QLabel {
       </widget>
      </item>
      <item row="1" column="1">
-      <widget class="QLineEdit" name="lineEditModel">
+      <widget class="QComboBox" name="comboBoxModel">
+       <property name="editable">
+        <bool>true</bool>
+       </property>
+       <item>
+        <property name="text">
+         <string>qwen2.5-coder-7b-instruct</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>qwen2.5-coder-3b-instruct</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>qwen2-0.5b-instruct</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>qwen2.5-coder:3b</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>访问令牌：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="lineEditToken">
        <property name="placeholderText">
-        <string>输入AI模型名称</string>
+        <string>请输入访问令牌</string>
        </property>
       </widget>
      </item>

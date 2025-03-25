@@ -78,6 +78,20 @@ QLabel {
     </layout>
    </item>
    <item>
+    <widget class="QLabel" name="labelSystemPrompt">
+     <property name="text">
+      <string>系统提示：</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTextEdit" name="textEditSystemPrompt">
+     <property name="placeholderText">
+      <string>输入系统提示，例如：按照"机密" "非密" 对文件进行分类 </string>
+     </property>
+    </widget>
+   </item>
+   <item>
     <widget class="QDialogButtonBox" name="buttonBox">
      <property name="orientation">
       <enum>Qt::Horizontal</enum>

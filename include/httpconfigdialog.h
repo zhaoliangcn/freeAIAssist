@@ -20,6 +20,9 @@ public:
     QString getUrl() const;
     QString getModel() const;
 
+    QString getToken() const;
+    void setToken(const QString &token);
+
 private slots:
     void testConnection();
     void handleTestResponse(QNetworkReply *reply);

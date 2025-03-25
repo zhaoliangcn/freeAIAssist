@@ -29,7 +29,10 @@ FORMS += ui/mainwindow.ui \
 
 INCLUDEPATH += include
 
-LIBS += ../chat-ai-ui/thirdparty/lib/libdoc2text.lib \
-        user32.lib
+LIBS += ../chat-ai-ui/thirdparty/lib/libdoc2text.lib 
+
+win32{
+LIBS += user32.lib
+}
 
 RESOURCES += ai.qrc

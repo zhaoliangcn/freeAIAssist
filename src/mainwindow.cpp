@@ -5,6 +5,7 @@
 #include <QFileInfo>
 #include "filedig.h"
 #include "ContentInject.hpp"
+#include <QtConcurrent/QtConcurrent>
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -58,7 +59,9 @@ void MainWindow::handleNetworkReply(QNetworkReply *reply)
                             if (messageObj.contains("content") && messageObj["content"].isString()) {
                                 QString content = messageObj["content"].toString();
                                 ui->textEdit->append(content); // 将解析后的内容添加到 QTextEdit 控件中
-                                 speechwindow.SpeekText(content);
+                                 QtConcurrent::run([this, content]() {
+                                    speechwindow.SpeekText(content);
+                                });
                         
                             }
                         }
@@ -263,7 +266,7 @@ void MainWindow::RequestWithContext()
     std::string prompt = injector.generate_prompt(
         u8"技术专家", 
         ui->textEditUserQuery->toPlainText().toStdString(),
-        u8"分条目列出要点"
+        assistconfig.getSystemPrompt().toStdString()
     );
 
     ui->textEdit->setText("");
@@ -302,6 +305,9 @@ void MainWindow::RequestWithContext()
   //  QNetworkRequest request(QUrl("http://localhost:1234/v1/chat/completions"));
     QNetworkRequest request(QUrl(configdlg.getUrl()));
     request.setHeader(QNetworkRequest::ContentTypeHeader, "application/json");
+
+    QByteArray token = "Bearer " + configdlg.getToken().toUtf8();
+    request.setRawHeader(QByteArray("Authorization"),QByteArray(token));
 
     networkManager->post(request, postData);
 }
