@@ -1,21 +1,26 @@
 #ifndef KNOWLEDGEBASE_H
 #define KNOWLEDGEBASE_H
 
-#include <QObject>
+#include <QDialog
 #include <QString>
-#include <QMap>
 
-class KnowledgeBase : public QObject
+namespace Ui {
+class KnowledgeBase;
+}<QMap>
+
+
+class KnowledgeBase : public QDialog
 {
     Q_OBJECT
 
 public:
-    explicit KnowledgeBase(QObject *parent = nullptr);
+    explicit KnowledgeBase(QDialog *parent = nullptr);
 
     void addDocument(const QString &id, const QString &content);
     QString getDocument(const QString &id) const;
     QMap<QString, QString> searchDocuments(const QString &query) const;
     void removeDocument(const QString &id);
+    void AddFile(const QString &filePath);
 
 private:
     QMap<QString, QString> documents;

@@ -1,14 +1,14 @@
 <FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" FontFamily="Segoe UI" FontSize="12">
   <FlowDocument.Tag><![CDATA[{
-  "timestamp": "2025-03-21 15:28:24",
+  "timestamp": "2025-03-27 15:43:18",
   "files": {
     "C:\\Users\\coder\\Desktop\\chat-ai\\chat-ai-ui\\chat-ai-ui.vcxproj": {
-      "before": "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",
-      "after": "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"
+      "before": "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",
+      "after": "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"
     },
     "C:\\Users\\coder\\Desktop\\chat-ai\\chat-ai-ui\\chat-ai-ui.vcxproj.filters": {
-      "before": "5Vhdj5s4FO3zSvu8r1EeV3IgQBIoTKo4gXZeqmpX+zZSRYwT3AWbYtNGWu3/7M+pMxliGGcU5oOs2o3CAxbc4+tzfO7F33579Sp4s8uzwRdccsLo1XA8MocDTBFLCN1eDSuxAe7wzfzXX4IPJfuEkRjIxym/GqZCFK8Ng6MU5zEf5QSVjLONGCGWGwn+gjNW4NLI+boiWWJYpmkPZZjBILgWOH9bsqq4vZUDEckELgfXFGVVgq+GESvzgRzE/PDGQP6Cvyj5XOHrBFNBNgSX8388z3Y81/TAZAIXwFl7CYDRzANutILQtNxpCO1/A0N7cT+J25DhTmC6T5vPKxIYjdvjIx/ikuPbqcw3ccZxYDRGDk8FxmH+/49s3mKKy1jgpANBs3G4cuUfLJbQA84y9ACE4RiEpgltc+w44XjclSBUFD7y0W7n5wz5qZ/gjc+SzCfyKjH3T9B3jpifKJV3OE7kDuqwZ2zPm9iuCVwPruSeMR3guiEEU2sSwXBihTCCXSlJ/VSSkkpK0twnVHJBkb/jyROo+NHn/wfmrCoR7sDAyltNQ8uxQOQuIuBMQwdAL1oB1wyXcGmZcGGHXRn4XCL/9xPLLe2yYVNPNa6fMqk/u/LkRMuZPYvGYDlbTIBjz6ZgYU6nwFrY1mo2sRZWFHXlSZlX07bS4pO/joUf83x/7U4Qec7CfuBsAqPdB+htwTJbsryQbYDqDHiJbmISc064iKlAjG7INiFxxrYjuciNduGuJjcX6P5iGkeAunQfB9qIGzmHhPSJsG+mLpRMHhPa41rtw38lNGFfewThBcYofSGYDkKsuGA53PexShiy2O271QflmOpibFY5XYwKRMnxriXWUWtJPholuwt5xFCwOoomy0fDqeidABvq6RuqpaHngnXQkG5mCV5X2xvZzn58lKXda1t1IdVIxxWvBxTBJc5wzPF/A67y1vR10sNfOuHLoapMG8K+SI4vj6d2spKRyq8osWxt+CgdobXQne8shSr6UbVqSAE2ddsDpL5RVIYtv7gIh5dBPGQovySkC50u2WfJq5ftSF09oBP3wjhafazIg2Z6wuPPZ3a/WtblU2UmETVD6Q+qsa/7A2kJ79kwHWrjqa1ekQdbq4roDqPODPWCqMIfFaqGmkzeaEz2B9Vgsj+QFpPPhHkij9JV5KbXCWufLnQh7T2jjU/BumcaFXT76Oj7ULUW2mGl7EgebzG/Wcfo7608pqZJfxCVEIw+L3ybFnk+fTimn38H",
-      "after": "5VjRbpswFN3zpD3sD6I8TnIgQBIYNFVMYOvDprbT3ipNxNwEd2AzbLpI0/59Tto0pCQKzZpJ7aLwgAXn+N5zfH3xl7evXnmn8yxt3UAhKGcn7W5Hb7eAER5TNjtpl3KK7Pbp8M1r77zg10BkSz3OxEk7kTJ/r2mCJJBFopNRUnDBp7JDeKbFcAMpz6HQMjEpaRprhq6bbQXTanlnErIPBS/z5a0aCGkqoWidMZKWMZy0Q15kLTUI4vaNlvp5Xxn9UcJZDEzSKYVi+MtxTMuxdQf1eniErIkTIxwOHGSHY4x1w+4H2PztabUXF5NYQgZzCWwRthiW1NMqt/ePnEeFgOVUhtMoFeBplZHbpzztdv7/RzQfgEERSYgbCDToBmNb/dHIxw6y/MBBGAddFOg6NvWuZQXdblOBSJ67xCXzuZtx4iZuDFOXx6lL1VWAcLfIt0+YFxTKR4hitYIarBnTcXqmrSPbwWO1ZnQL2XaAUd/ohTjoGQEOcVNJEjdRoiRKkiRzKVNaMOLORXyAFM99/pcgeFkQaKDA2Bn3A8MyUGiPQmT1AwthJxwjWw987Bs6HplBUwV+FMR9tyXdqlxWytShhetFBvWlqU5W6A/MQdhF/mDUQ5Y56KOR3u8jY2Qa40HPGBlh2FSndfGqlq0kv3YnkXQjkS2u+RYh95WwZxyNp232AfW2wE99nuWqDVh3BqIgVxGNhKBCRkwSzqZ0FtMo5bOOSnKlXbjbk6sJephM7Z5gtXXfD2wyTtUcYnpMhkUz9Y+CySLKjpirBfxPymL+84gkIgcgyRPR7DfihfzEydoSaptb9Kk7jZjUbVjd32o2XMKvLXjXBtf5VjZ8LL6f3kGuOHbEUzPhY4k2AtlBUvHHMeA3nHE4wX5P+KWQPMOLb5u1UjFMytmValC/5QWoUi86SYdMZN0PD1rPmiUq6CvRKkNrwgJSiAQcg3J/Ci7kV1pZFiXduSJKWk/B+iOvFv0SeBV3naXm06eFrzj0aYE3vHkwdBNdLklFl4h2VJ9YF2CzvdsigkJZifCZs8ouvNqBOzmbPRp3AbUdVhmIZtEMxNUkIt9n6oSAxcejKKXk7O/gN6VQRwO3JyTDPw=="
+      "before": "5Znfjps4GMV7XWmfYaNcruRAgCSwZFKFBNqRqm613b0baUTAAXcBU9u0qVb7QH3LOpM/hhIUZhJTtTuaXMRK/OPzyTn+DF9+ffZs+mKTJr2PkFCEs5v+cKD2ezALcIiy6KZfsDUw+y9mvzyfviX4PQxYj388ozf9mLH8d0WhQQxTnw5SFBBM8ZoNApwqIfwIE5xDoqR0VaAkVDRV1ft8ml5vestg+pLgIn94ywc8lDBIerdZkBQhvOl7mKQ9Pgjp7hs9/jf9O0MfCngbwoyhNYJk9q9l6YZlqhYYjZw5MFZWCBxvYgHTWzqOqplj19H/myq1L24v4mFKd8Ngti2bzgo0VUpvjx956xMKHy5ltvYTCqdKaWT3qamyu/7/RzUvYQaJz2DYQqDJ0F2a/B/MF44FjIVrAcdxh8BVVUdXh4bhDodtBQry3A7sYLOxUxzYsR3CtY3DxEb8RSC1T8h3TpifqJRX0A+5g1p4RreskW6qwLScJfeMagDTdB0w1kae44401/GctpLEdsxFibkkcWqjjGuRBfaGhk+Q4ke//j8hxQUJYAsFltZy7GqGBjxz7gFj7BrAsbwlMFV34Sw01ZnrblsFPpDA/u3EcvO4LMXUU4PrpyzqXVudDG8x0SfeECwm8xEw9MkYzNXxGGhzXVtORtpc87y2OonwKsdWnL+3Vz6zfZpuX5sTQp6LsB+4mqlS7QPqbcEiWeA0522A6AwoCe7+4G2Fz/iu/RpHESQDvrilNmG/F5cX5ttFVI4TH7bs40CV9BfcsHcwSnnLIZHiI59SRJmfsQBnaxSFyE9wJJEYxD67jzkSk88yMThNeW/1mfJ+LydcSia9sjX/tYRI5tpt296OZEp9lEmUZzv9J5SF+JNECM0hDOIrYdpExv4QIYzMm5LtqaIWG3E9NMpdyInQ2E8tQqORVQ6OyzkFN2rqbE9R9aqawuPRVAE51ieG6txKhEiHNQXJNcBJo4qHMHk05TBlq5WsBcqjcUKnVsCS72WjKu6/FNbG/bWGIYSrIrrjR8b7JqecbB++ORqeCIM96bji9V6FwAT6FH4fuKi74tROiu2GWKqwKR66qbZzuqi8lh2dVNwdVVRaCq1Oarw+T6S02E1FfTmB/GhIB/EgWLF6Z3I2j8Tsx0QSQwJYziQJyHoIigore0EnGnZD3FXI78TwHeZ0I31WvMOyHaU7DNSFuzKn1vsU6P5M83q+mvN9Mqc0bccnuoQrESvbkkRM034gD1kLZHmoUi7Kg1SMezGmRd94KioLdFd2QoHqqSyeU9UbRDHl0dViSPiaU5qcII9YcYJETJMT5CFrTpCHKjlBHqTihAsxT/QB39X4plP/8VefDrQxwBuclW7l8od2D7fi6R1K/QjSow8GeRY9Gred+2C0Koc7bA9Y+cE/EX/unIXyEAVjOLts+qpO/IHz7rn77Cs=",
+      "after": "5Vhdj6M2FN3nSn3se5THSg4ESAKFySomsB2pH/vRfYu0cowD3oLN2mY3q6r/sD+qTmYykCXRMDOh0m6j8IAF53B97j2+9j8/PHsWPN8W+eAjEZJydjUcj8zhgDDME8rSq2GlNsAdPp9//13wUvD3BKuBfpzJq2GmVPmTYUickQLJUUGx4JJv1AjzwkjIR5LzkgijkOuK5olhmaY91DCDQXCtSPFC8Krc3+qBmOaKiME1w3mVkKthzEUx0INE3rwx0L/gLaMfKnKdEKbohhIx/8vzbMdzTQ9MJnABnLWXABjPPODGSwhNy51G0P47MFov7j5iDxltFWG7sOW8ooHRuL175CUSkuw/Zb5BuSSB0Ri5eSowbr7//xHNC8KIQIokHQSajaOlq/9gEUIPOGHkAQijMYhME9rm2HGi8birQLgsfezj7dYvOPYzPyEbnye5T/UliPRPyHefMN9QKD8TlOgK6lAztudNbNcErgeXumZMB7huBMHUmsQwmlgRjGFXSTI/06JkWpKs8CnTWjDsb2XyCCm+9u9/TSSvBCYdFFh6y2lkORaI3UUMnGnkAOjFS+CaUQhDy4QLO+qqwAeB/R9PTLe2y4ZNPda4vsmg3nTVyYnDmT2LxyCcLSbAsWdTsDCnU2AtbGs5m1gLK4676lSbV9O2svK9v0bKR7LYXdsTQt5nYV9xNIFx3Ae024IwD3lR6jag7gykwKvfdVuBlF61f+FpSsRIT26jTbhdi5sT8+UkGnfAhyX7buCY6Q+yVW9IWuiWo0cWRJGUVCrEFOZsQ9OEopynPTLiDKl3mabk4nOfNLwodG/1Wep+rxRaStV7ZBudLQntc+52be9/JFOBKOtRnh38J8oS/qlHElkSgrML0XSxjNtNRF3IuinZ7SpatpG1TaPZhZwwjVvo2jTOcjWN48k8r9SvHLfjOWcbD+Xbwx9iOsN1ZBi9EJyziieRhflZhQ5G8VD8O8h7ZqxlEw8l6iJLo4L7gD+q3ccTdKjaSi9FBdydE9R5npB1la70Zu9dKYhum+QoG+G1alftF9u4duHW6AfRwnqoJhQkJ0iSPijvn4JX6i1tFHlFV00PqWg77PqQpBXxHuwQaxv5nHNcluXIMy4Mfc4tLkvTquHLwjeq97LAR3X7aOguOfsaN3IW0ZHej7YT9XgbeSJZNcohWX/jrNHt63Od/W5NrmiBUiJXh8wdlSx9MNEO+zSPrrZbgjXCf6b6aJIl/VFUSnH2NPhjbfSZ5M3R7Pxf"
     },
     "C:\\Users\\coder\\Desktop\\chat-ai\\chat-ai-ui\\chat-ai-ui.vcxproj.user": {
       "before": "tZE9a8MwEIbTtdD/IETAyVDL/aCUYiVDCl06JG3obstnW0XWGekUUsgf7r+o7OItYzvee8f7PHDfF7NZvj52hh3AeY1W8ps04wyswkrbRvJA9fUjX6+uLvOtw09QxPaIxn9M95vgHFjiLLZYL3lL1D8J4VULXeHTTiuHHmtKFXaiggMY7MGJzpdBm0rcZtkdj+2MDf1xQ18vDkPPxLnwtSjBSL6jdyCKfp6zDdpK06iezBdxqnUTXDEky9N8sTUF1ei6ZSJl8gxlaE7Hh/vkFxmhO9pjUO3EHqExFufyXExno+I/CL6BgcLDXyqO0sPfVj8=",
@@ -25,7 +25,7 @@
       <Span TextDecorations="Underline">Project Format Conversion</Span>
     </Paragraph>
     <Paragraph Margin="12,8" FontSize="18">
-      <Span>Report generated on 2025-03-21 15:28:24</Span>
+      <Span>Report generated on 2025-03-27 15:43:18</Span>
     </Paragraph>
   </Section>
   <Section>
@@ -212,6 +212,114 @@
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
               <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Debug|x64'">$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_TEXTTOSPEECH_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include C:/Users/coder/Desktop/chat-ai/chat-ai-ui/debug/moc_predefs.h ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -IC:/Users/coder/Desktop/chat-ai/chat-ai-ui -IC:/Users/coder/Desktop/chat-ai/chat-ai-ui/include ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtANGLE]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtNetwork]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtTextToSpeech]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" include\aiassistantconfigdialog.h -o debug\moc_aiassistantconfigdialog.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">include\chat_history.h;release\moc_predefs.h;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">include\chat_history.h;release\moc_predefs.h;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Release|x64'">C:\Qt\Qt5]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[14.1\5.14.1\msvc2017_64\bin\moc.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_TEXTTOSPEECH_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include C:/Users/coder/Desktop/chat-ai/chat-ai-ui/release/moc_predefs.h ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -IC:/Users/coder/Desktop/chat-ai/chat-ai-ui -IC:/Users/coder/Desktop/chat-ai/chat-ai-ui/include ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtANGLE]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtNetwork]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtTextToSpeech]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" include\chat_history.h -o release\moc_chat_history.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Release|x64'">$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_TEXTTOSPEECH_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include C:/Users/coder/Desktop/chat-ai/chat-ai-ui/release/moc_predefs.h ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -IC:/Users/coder/Desktop/chat-ai/chat-ai-ui -IC:/Users/coder/Desktop/chat-ai/chat-ai-ui/include ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtANGLE]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtNetwork]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtTextToSpeech]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" include\chat_history.h -o release\moc_chat_history.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">include\chat_history.h;debug\moc_predefs.h;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">include\chat_history.h;debug\moc_predefs.h;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Debug|x64'">C:\Qt\Qt5]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[14.1\5.14.1\msvc2017_64\bin\moc.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_TEXTTOSPEECH_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include C:/Users/coder/Desktop/chat-ai/chat-ai-ui/debug/moc_predefs.h ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -IC:/Users/coder/Desktop/chat-ai/chat-ai-ui -IC:/Users/coder/Desktop/chat-ai/chat-ai-ui/include ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtANGLE]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtNetwork]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtTextToSpeech]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" include\chat_history.h -o debug\moc_chat_history.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Debug|x64'">$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_TEXTTOSPEECH_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include C:/Users/coder/Desktop/chat-ai/chat-ai-ui/debug/moc_predefs.h ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -IC:/Users/coder/Desktop/chat-ai/chat-ai-ui -IC:/Users/coder/Desktop/chat-ai/chat-ai-ui/include ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtANGLE]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtNetwork]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtTextToSpeech]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" include\chat_history.h -o debug\moc_chat_history.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">include\commonsystempromptdialog.h;release\moc_predefs.h;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">include\commonsystempromptdialog.h;release\moc_predefs.h;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Release|x64'">C:\Qt\Qt5]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[14.1\5.14.1\msvc2017_64\bin\moc.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_TEXTTOSPEECH_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include C:/Users/coder/Desktop/chat-ai/chat-ai-ui/release/moc_predefs.h ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -IC:/Users/coder/Desktop/chat-ai/chat-ai-ui -IC:/Users/coder/Desktop/chat-ai/chat-ai-ui/include ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtANGLE]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtNetwork]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtTextToSpeech]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" include\commonsystempromptdialog.h -o release\moc_commonsystempromptdialog.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Release|x64'">$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_TEXTTOSPEECH_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include C:/Users/coder/Desktop/chat-ai/chat-ai-ui/release/moc_predefs.h ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -IC:/Users/coder/Desktop/chat-ai/chat-ai-ui -IC:/Users/coder/Desktop/chat-ai/chat-ai-ui/include ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtANGLE]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtNetwork]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtTextToSpeech]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" include\commonsystempromptdialog.h -o release\moc_commonsystempromptdialog.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">include\commonsystempromptdialog.h;debug\moc_predefs.h;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">include\commonsystempromptdialog.h;debug\moc_predefs.h;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Debug|x64'">C:\Qt\Qt5]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[14.1\5.14.1\msvc2017_64\bin\moc.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_TEXTTOSPEECH_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include C:/Users/coder/Desktop/chat-ai/chat-ai-ui/debug/moc_predefs.h ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -IC:/Users/coder/Desktop/chat-ai/chat-ai-ui -IC:/Users/coder/Desktop/chat-ai/chat-ai-ui/include ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtANGLE]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtNetwork]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtTextToSpeech]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" include\commonsystempromptdialog.h -o debug\moc_commonsystempromptdialog.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Debug|x64'">$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_TEXTTOSPEECH_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include C:/Users/coder/Desktop/chat-ai/chat-ai-ui/debug/moc_predefs.h ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -IC:/Users/coder/Desktop/chat-ai/chat-ai-ui -IC:/Users/coder/Desktop/chat-ai/chat-ai-ui/include ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtANGLE]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtNetwork]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtTextToSpeech]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" include\commonsystempromptdialog.h -o debug\moc_commonsystempromptdialog.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -437,6 +545,60 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ui\TextSegment.ui;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\uic]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ui\TextSegment.ui;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\bin\uic]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Release|x64'">C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\uic]]></Span><Span><![CDATA[.exe ui\TextSegment.ui -o ui_TextSegment.h</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Release|x64'">$(QTDIR)\bin\uic]]></Span><Span><![CDATA[.exe ui\TextSegment.ui -o ui_TextSegment.h</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ui\TextSegment.ui;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\uic]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ui\TextSegment.ui;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\bin\uic]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Debug|x64'">C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\uic]]></Span><Span><![CDATA[.exe ui\TextSegment.ui -o ui_TextSegment.h</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Debug|x64'">$(QTDIR)\bin\uic]]></Span><Span><![CDATA[.exe ui\TextSegment.ui -o ui_TextSegment.h</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
               <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ui\aiassistantconfigdialog.ui;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\uic]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
@@ -482,6 +644,114 @@
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
               <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Debug|x64'">$(QTDIR)\bin\uic]]></Span><Span><![CDATA[.exe ui\aiassistantconfigdialog.ui -o ui_aiassistantconfigdialog.h</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ui\chat_history.ui;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\uic]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ui\chat_history.ui;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\bin\uic]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Release|x64'">C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\uic]]></Span><Span><![CDATA[.exe ui\chat_history.ui -o ui_chat_history.h</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Release|x64'">$(QTDIR)\bin\uic]]></Span><Span><![CDATA[.exe ui\chat_history.ui -o ui_chat_history.h</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ui\chat_history.ui;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\uic]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ui\chat_history.ui;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\bin\uic]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Debug|x64'">C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\uic]]></Span><Span><![CDATA[.exe ui\chat_history.ui -o ui_chat_history.h</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Debug|x64'">$(QTDIR)\bin\uic]]></Span><Span><![CDATA[.exe ui\chat_history.ui -o ui_chat_history.h</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ui\commonsystempromptdialog.ui;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\uic]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ui\commonsystempromptdialog.ui;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\bin\uic]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Release|x64'">C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\uic]]></Span><Span><![CDATA[.exe ui\commonsystempromptdialog.ui -o ui_commonsystempromptdialog.h</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Release|x64'">$(QTDIR)\bin\uic]]></Span><Span><![CDATA[.exe ui\commonsystempromptdialog.ui -o ui_commonsystempromptdialog.h</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ui\commonsystempromptdialog.ui;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\uic]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ui\commonsystempromptdialog.ui;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\bin\uic]]></Span><Span><![CDATA[.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Debug|x64'">C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\uic]]></Span><Span><![CDATA[.exe ui\commonsystempromptdialog.ui -o ui_commonsystempromptdialog.h</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Debug|x64'">$(QTDIR)\bin\uic]]></Span><Span><![CDATA[.exe ui\commonsystempromptdialog.ui -o ui_commonsystempromptdialog.h</Command>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -653,12 +923,12 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ai.qrc;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\rcc]]></Span><Span><![CDATA[.exe;ui\images\background.png;ui\images\button.png;aiassist.png;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ai.qrc;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\rcc]]></Span><Span><![CDATA[.exe;ui\images\background.png;ui\images\button.png;resources\images\aiassist.png;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ai.qrc;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\bin\rcc]]></Span><Span><![CDATA[.exe;ui\images\background.png;ui\images\button.png;aiassist.png;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ai.qrc;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\bin\rcc]]></Span><Span><![CDATA[.exe;ui\images\background.png;ui\images\button.png;resources\images\aiassist.png;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -680,12 +950,12 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ai.qrc;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\rcc]]></Span><Span><![CDATA[.exe;ui\images\background.png;ui\images\button.png;aiassist.png;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ai.qrc;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\rcc]]></Span><Span><![CDATA[.exe;ui\images\background.png;ui\images\button.png;resources\images\aiassist.png;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ai.qrc;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\bin\rcc]]></Span><Span><![CDATA[.exe;ui\images\background.png;ui\images\button.png;aiassist.png;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ai.qrc;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\bin\rcc]]></Span><Span><![CDATA[.exe;ui\images\background.png;ui\images\button.png;resources\images\aiassist.png;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -776,6 +1046,66 @@
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
               <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_TEXTTOSPEECH_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightGreen"><![CDATA[ ./debug/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc ]]></Span><Span Background="LightGreen"><![CDATA[-I. -I./include]]></Span><Span><![CDATA[ -I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtANGLE -I$(QTDIR)/include/QtNetwork -I$(QTDIR)/include/QtTextToSpeech -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" include\aiassistantconfigdialog.h -o debug\moc_aiassistantconfigdialog.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_TEXTTOSPEECH_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightCoral"><![CDATA[ C:/Users/coder/Desktop/chat-ai/chat-ai-ui/release/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Users/coder/Desktop/chat-ai/chat-ai-ui -IC:/Users/coder/Desktop/chat-ai/chat-ai-ui/include]]></Span><Span><![CDATA[ -I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtANGLE -I$(QTDIR)/include/QtNetwork -I$(QTDIR)/include/QtTextToSpeech -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" include\chat_history.h -o release\moc_chat_history.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_TEXTTOSPEECH_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightGreen"><![CDATA[ ./release/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc ]]></Span><Span Background="LightGreen"><![CDATA[-I. -I./include]]></Span><Span><![CDATA[ -I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtANGLE -I$(QTDIR)/include/QtNetwork -I$(QTDIR)/include/QtTextToSpeech -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" include\chat_history.h -o release\moc_chat_history.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_TEXTTOSPEECH_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightCoral"><![CDATA[ C:/Users/coder/Desktop/chat-ai/chat-ai-ui/debug/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Users/coder/Desktop/chat-ai/chat-ai-ui -IC:/Users/coder/Desktop/chat-ai/chat-ai-ui/include]]></Span><Span><![CDATA[ -I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtANGLE -I$(QTDIR)/include/QtNetwork -I$(QTDIR)/include/QtTextToSpeech -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" include\chat_history.h -o debug\moc_chat_history.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_TEXTTOSPEECH_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightGreen"><![CDATA[ ./debug/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc ]]></Span><Span Background="LightGreen"><![CDATA[-I. -I./include]]></Span><Span><![CDATA[ -I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtANGLE -I$(QTDIR)/include/QtNetwork -I$(QTDIR)/include/QtTextToSpeech -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" include\chat_history.h -o debug\moc_chat_history.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_TEXTTOSPEECH_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightCoral"><![CDATA[ C:/Users/coder/Desktop/chat-ai/chat-ai-ui/release/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Users/coder/Desktop/chat-ai/chat-ai-ui -IC:/Users/coder/Desktop/chat-ai/chat-ai-ui/include]]></Span><Span><![CDATA[ -I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtANGLE -I$(QTDIR)/include/QtNetwork -I$(QTDIR)/include/QtTextToSpeech -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" include\commonsystempromptdialog.h -o release\moc_commonsystempromptdialog.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_TEXTTOSPEECH_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightGreen"><![CDATA[ ./release/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc ]]></Span><Span Background="LightGreen"><![CDATA[-I. -I./include]]></Span><Span><![CDATA[ -I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtANGLE -I$(QTDIR)/include/QtNetwork -I$(QTDIR)/include/QtTextToSpeech -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" include\commonsystempromptdialog.h -o release\moc_commonsystempromptdialog.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_TEXTTOSPEECH_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightCoral"><![CDATA[ C:/Users/coder/Desktop/chat-ai/chat-ai-ui/debug/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Users/coder/Desktop/chat-ai/chat-ai-ui -IC:/Users/coder/Desktop/chat-ai/chat-ai-ui/include]]></Span><Span><![CDATA[ -I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtANGLE -I$(QTDIR)/include/QtNetwork -I$(QTDIR)/include/QtTextToSpeech -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" include\commonsystempromptdialog.h -o debug\moc_commonsystempromptdialog.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_TEXTTOSPEECH_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightGreen"><![CDATA[ ./debug/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc ]]></Span><Span Background="LightGreen"><![CDATA[-I. -I./include]]></Span><Span><![CDATA[ -I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtANGLE -I$(QTDIR)/include/QtNetwork -I$(QTDIR)/include/QtTextToSpeech -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" include\commonsystempromptdialog.h -o debug\moc_commonsystempromptdialog.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -1441,21 +1771,25 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightCoral"><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">include\aiassistantconfigdialog.h;release\moc_predefs.h;$(QTDIR)\bin\moc.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalInputs]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[Condition="'$(Configuration)|$(Platform)'=='Release|x64'">include\aiassistantconfigdialog]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[h;release\moc_predefs.h;$(QTDIR)\bin\moc.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
-            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtMoc]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[Include="include\chat_history]]></Span><Span><![CDATA[.]]></Span><Span Background="LightGreen"><![CDATA[h" />]]></Span>
+            </Paragraph>
           </TableCell>
         </TableRow>
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightCoral"><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_TEXTTOSPEECH_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include ./release/moc_predefs.h -I$(QTDIR)/mkspecs/win32-msvc -I. -I./include -I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtANGLE -I$(QTDIR)/include/QtNetwork -I$(QTDIR)/include/QtTextToSpeech -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" include\aiassistantconfigdialog.h -o release\moc_aiassistantconfigdialog.cpp</Command>]]></Span>
+              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<Command]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_TEXTTOSPEECH_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include ./release/moc_predefs.h -I$(QTDIR)/mkspecs/win32-msvc -I. -I./include -I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtANGLE -I$(QTDIR)/include/QtNetwork -I$(QTDIR)/include/QtTextToSpeech -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" include\aiassistantconfigdialog.h -o release\moc_aiassistantconfigdialog.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
-            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtMoc]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[Include="include\commonsystempromptdialog]]></Span><Span><![CDATA[.]]></Span><Span Background="LightGreen"><![CDATA[h"]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[/>]]></Span>
+            </Paragraph>
           </TableCell>
         </TableRow>
         <TableRow>
@@ -1512,6 +1846,206 @@
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
               <Span Background="LightCoral"><![CDATA[      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">debug\moc_aiassistantconfigdialog.cpp;%(Outputs)</Outputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    </CustomBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    <CustomBuild Include="include\chat_history.h">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">include\chat_history.h;release\moc_predefs.h;$(QTDIR)\bin\moc.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_TEXTTOSPEECH_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include ./release/moc_predefs.h -I$(QTDIR)/mkspecs/win32-msvc -I. -I./include -I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtANGLE -I$(QTDIR)/include/QtNetwork -I$(QTDIR)/include/QtTextToSpeech -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" include\chat_history.h -o release\moc_chat_history.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MOC include/chat_history.h</Message>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">release\moc_chat_history.cpp;%(Outputs)</Outputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">include\chat_history.h;debug\moc_predefs.h;$(QTDIR)\bin\moc.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_TEXTTOSPEECH_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include ./debug/moc_predefs.h -I$(QTDIR)/mkspecs/win32-msvc -I. -I./include -I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtANGLE -I$(QTDIR)/include/QtNetwork -I$(QTDIR)/include/QtTextToSpeech -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" include\chat_history.h -o debug\moc_chat_history.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MOC include/chat_history.h</Message>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">debug\moc_chat_history.cpp;%(Outputs)</Outputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    </CustomBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    <CustomBuild Include="include\commonsystempromptdialog.h">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">include\commonsystempromptdialog.h;release\moc_predefs.h;$(QTDIR)\bin\moc.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_TEXTTOSPEECH_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include ./release/moc_predefs.h -I$(QTDIR)/mkspecs/win32-msvc -I. -I./include -I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtANGLE -I$(QTDIR)/include/QtNetwork -I$(QTDIR)/include/QtTextToSpeech -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" include\commonsystempromptdialog.h -o release\moc_commonsystempromptdialog.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MOC include/commonsystempromptdialog.h</Message>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">release\moc_commonsystempromptdialog.cpp;%(Outputs)</Outputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">include\commonsystempromptdialog.h;debug\moc_predefs.h;$(QTDIR)\bin\moc.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_TEXTTOSPEECH_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include ./debug/moc_predefs.h -I$(QTDIR)/mkspecs/win32-msvc -I. -I./include -I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtANGLE -I$(QTDIR)/include/QtNetwork -I$(QTDIR)/include/QtTextToSpeech -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" include\commonsystempromptdialog.h -o debug\moc_commonsystempromptdialog.cpp</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MOC include/commonsystempromptdialog.h</Message>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">debug\moc_commonsystempromptdialog.cpp;%(Outputs)</Outputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -1903,6 +2437,126 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    <ClCompile Include="debug\moc_chat_history.cpp">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    </ClCompile>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    <ClCompile Include="release\moc_chat_history.cpp">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    </ClCompile>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    <ClCompile Include="debug\moc_commonsystempromptdialog.cpp">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    </ClCompile>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    <ClCompile Include="release\moc_commonsystempromptdialog.cpp">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    </ClCompile>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
               <Span Background="LightCoral"><![CDATA[    <ClCompile Include="debug\moc_httpconfigdialog.cpp">]]></Span>
             </Paragraph>
           </TableCell>
@@ -2229,7 +2883,37 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    <ClInclude Include="ui_TextSegment.h" />]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
               <Span Background="LightCoral"><![CDATA[    <ClInclude Include="ui_aiassistantconfigdialog.h" />]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    <ClInclude Include="ui_chat_history.h" />]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    <ClInclude Include="ui_commonsystempromptdialog.h" />]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -2272,12 +2956,12 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[    ]]></Span><Span Background="LightCoral"><![CDATA[<CustomBuild]]></Span><Span><![CDATA[ Include="ui\aiassistantconfigdialog.]]></Span><Span Background="LightCoral"><![CDATA[ui">]]></Span>
+              <Span><![CDATA[    ]]></Span><Span Background="LightCoral"><![CDATA[<CustomBuild]]></Span><Span><![CDATA[ Include="ui\TextSegment.]]></Span><Span Background="LightCoral"><![CDATA[ui">]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtUic]]></Span><Span><![CDATA[ Include="ui\aiassistantconfigdialog.]]></Span><Span Background="LightGreen"><![CDATA[ui" />]]></Span>
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtUic]]></Span><Span><![CDATA[ Include="ui\TextSegment.]]></Span><Span Background="LightGreen"><![CDATA[ui" />]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2289,14 +2973,50 @@
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtUic Include="ui\httpconfigdialog.ui" />]]></Span>
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtUic Include="ui\aiassistantconfigdialog.ui" />]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalInputs]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ui\aiassistantconfigdialog]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[ui;$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalInputs]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ui\TextSegment]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[ui;$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtUic]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[Include="ui\chat_history]]></Span><Span><![CDATA[.]]></Span><Span Background="LightGreen"><![CDATA[ui" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<Command]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\uic]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[exe]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[ui\TextSegment.ui -o ui_TextSegment.h</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtUic]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[Include="ui\commonsystempromptdialog]]></Span><Span><![CDATA[.]]></Span><Span Background="LightGreen"><![CDATA[ui"]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[/>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<Message]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UIC]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[ui/TextSegment.ui</Message>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtUic]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[Include="ui\httpconfigdialog.ui"]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[/>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<Outputs]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ui_TextSegment]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[h;%(Outputs)</Outputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -2308,13 +3028,93 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<Command]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\uic]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[exe]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[ui\aiassistantconfigdialog.ui -o ui_aiassistantconfigdialog.h</Command>]]></Span>
+              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalInputs]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ui\TextSegment]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[ui;$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtUic]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[Include="ui\speechwindow]]></Span><Span><![CDATA[.]]></Span><Span Background="LightGreen"><![CDATA[ui"]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[/>]]></Span>
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtUic]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[Include="ui\speechwindow]]></Span><Span><![CDATA[.]]></Span><Span Background="LightGreen"><![CDATA[ui" />]]></Span>
             </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\uic.exe ui\TextSegment.ui -o ui_TextSegment.h</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UIC ui/TextSegment.ui</Message>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ui_TextSegment.h;%(Outputs)</Outputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    </CustomBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    <CustomBuild Include="ui\aiassistantconfigdialog.ui">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <FileType>Document</FileType>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ui\aiassistantconfigdialog.ui;$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\uic.exe ui\aiassistantconfigdialog.ui -o ui_aiassistantconfigdialog.h</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
           </TableCell>
         </TableRow>
         <TableRow>
@@ -2371,6 +3171,226 @@
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
               <Span Background="LightCoral"><![CDATA[      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ui_aiassistantconfigdialog.h;%(Outputs)</Outputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    </CustomBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    <CustomBuild Include="ui\chat_history.ui">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <FileType>Document</FileType>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ui\chat_history.ui;$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\uic.exe ui\chat_history.ui -o ui_chat_history.h</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UIC ui/chat_history.ui</Message>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ui_chat_history.h;%(Outputs)</Outputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ui\chat_history.ui;$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\uic.exe ui\chat_history.ui -o ui_chat_history.h</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UIC ui/chat_history.ui</Message>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ui_chat_history.h;%(Outputs)</Outputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    </CustomBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    <CustomBuild Include="ui\commonsystempromptdialog.ui">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <FileType>Document</FileType>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ui\commonsystempromptdialog.ui;$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\uic.exe ui\commonsystempromptdialog.ui -o ui_commonsystempromptdialog.h</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UIC ui/commonsystempromptdialog.ui</Message>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ui_commonsystempromptdialog.h;%(Outputs)</Outputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ui\commonsystempromptdialog.ui;$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\uic.exe ui\commonsystempromptdialog.ui -o ui_commonsystempromptdialog.h</Command>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UIC ui/commonsystempromptdialog.ui</Message>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ui_commonsystempromptdialog.h;%(Outputs)</Outputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -2745,7 +3765,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightCoral"><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ai.qrc;$(QTDIR)\bin\rcc.exe;ui\images\background.png;ui\images\button.png;aiassist.png;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span Background="LightCoral"><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ai.qrc;$(QTDIR)\bin\rcc.exe;ui\images\background.png;ui\images\button.png;resources\images\aiassist.png;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -2785,7 +3805,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightCoral"><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ai.qrc;$(QTDIR)\bin\rcc.exe;ui\images\background.png;ui\images\button.png;aiassist.png;%(AdditionalInputs)</AdditionalInputs>]]></Span>
+              <Span Background="LightCoral"><![CDATA[      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ai.qrc;$(QTDIR)\bin\rcc.exe;ui\images\background.png;ui\images\button.png;resources\images\aiassist.png;%(AdditionalInputs)</AdditionalInputs>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -2859,6 +3879,60 @@
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
               <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtMoc]]></Span><Span><![CDATA[ Include="include\aiassistantconfigdialog.h">]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightCoral"><![CDATA[</CustomBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[</QtMoc>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightCoral"><![CDATA[<CustomBuild]]></Span><Span><![CDATA[ Include="include\chat_history.h">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtMoc]]></Span><Span><![CDATA[ Include="include\chat_history.h">]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightCoral"><![CDATA[</CustomBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[</QtMoc>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightCoral"><![CDATA[<CustomBuild]]></Span><Span><![CDATA[ Include="include\commonsystempromptdialog.h">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtMoc]]></Span><Span><![CDATA[ Include="include\commonsystempromptdialog.h">]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2998,6 +4072,126 @@
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
               <Span Background="LightCoral"><![CDATA[    <ClCompile Include="release\moc_aiassistantconfigdialog.cpp">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Filter>Generated Files</Filter>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    </ClCompile>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    <ClCompile Include="debug\moc_chat_history.cpp">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Filter>Generated Files</Filter>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    </ClCompile>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    <ClCompile Include="release\moc_chat_history.cpp">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Filter>Generated Files</Filter>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    </ClCompile>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    <ClCompile Include="debug\moc_commonsystempromptdialog.cpp">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Filter>Generated Files</Filter>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    </ClCompile>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    <ClCompile Include="release\moc_commonsystempromptdialog.cpp">]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -3270,7 +4464,97 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    <ClInclude Include="ui_TextSegment.h">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Filter>Generated Files</Filter>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    </ClInclude>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
               <Span Background="LightCoral"><![CDATA[    <ClInclude Include="ui_aiassistantconfigdialog.h">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Filter>Generated Files</Filter>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    </ClInclude>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    <ClInclude Include="ui_chat_history.h">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[      <Filter>Generated Files</Filter>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    </ClInclude>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightCoral"><![CDATA[    <ClInclude Include="ui_commonsystempromptdialog.h">]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -3393,12 +4677,93 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightCoral"><![CDATA[<CustomBuild]]></Span><Span><![CDATA[ Include="ui\TextSegment.ui">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtUic]]></Span><Span><![CDATA[ Include="ui\TextSegment.ui">]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightCoral"><![CDATA[</CustomBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[</QtUic>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
               <Span><![CDATA[    ]]></Span><Span Background="LightCoral"><![CDATA[<CustomBuild]]></Span><Span><![CDATA[ Include="ui\aiassistantconfigdialog.ui">]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
               <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtUic]]></Span><Span><![CDATA[ Include="ui\aiassistantconfigdialog.ui">]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightCoral"><![CDATA[</CustomBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[</QtUic>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightCoral"><![CDATA[<CustomBuild]]></Span><Span><![CDATA[ Include="ui\chat_history.ui">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtUic]]></Span><Span><![CDATA[ Include="ui\chat_history.ui">]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightCoral"><![CDATA[</CustomBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[</QtUic>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightCoral"><![CDATA[<CustomBuild]]></Span><Span><![CDATA[ Include="ui\commonsystempromptdialog.ui">]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtUic]]></Span><Span><![CDATA[ Include="ui\commonsystempromptdialog.ui">]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -4640,4 +6005,4 @@
     <Paragraph />
   </Section>
 </FlowDocument>
-<!--URGLHpvy/Khmq+iKccjLGzrmn5h2sCn83hzIRVYw2IU=-->
+<!--gYqCEQnTWQFFxPPUqkftGZPR/kPMQ1bRwNSjgNJKQ/4=-->

@@ -6,6 +6,27 @@
 #include "filedig.h"
 #include "ContentInject.hpp"
 #include <QtConcurrent/QtConcurrent>
+#include "OperationLogger.h"
+
+// 新增菜单项处理函数
+void MainWindow::on_menuItem_triggered() {
+    // 在这里实现菜单项的响应动作
+    chathistorywindow.exec();
+}
+
+void MainWindow::on_actionexit_triggered() {
+    // 在这里实现退出操作，例如关闭窗口
+    this->close();
+}
+
+void MainWindow::on_actioncommonprompt_triggered() {
+    // 在这里实现常用系统提示操作，例如弹出提示框
+    commonSystemPromptDialog.exec();
+}
+
+void MainWindow::on_actionfileimport_triggered() {
+    textSegment.exec();
+}
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -24,6 +45,16 @@ MainWindow::MainWindow(QWidget *parent) :
     assistantrole = u8"高级软件工程师，具有多年开发经验";
     // 修改窗口标题为 “AI小助手”
     setWindowTitle(u8"AI小助手");
+    // 连接菜单项的信号槽
+    connect(ui->actionchathistory, &QAction::triggered, this, &MainWindow::on_menuItem_triggered);
+    // 连接actionexit的信号槽
+    connect(ui->actionexit, &QAction::triggered, this, &MainWindow::on_actionexit_triggered);
+    // 连接actioncommonprompt的信号槽
+    connect(ui->actioncommonprompt, &QAction::triggered, this, &MainWindow::on_actioncommonprompt_triggered);
+
+    // 连接actionfileimport的信号槽
+    connect(ui->actionfileimport, &QAction::triggered, this, &MainWindow::on_actionfileimport_triggered);
+    
 }
 
 MainWindow::~MainWindow()
@@ -62,6 +93,8 @@ void MainWindow::handleNetworkReply(QNetworkReply *reply)
                                  QtConcurrent::run([this, content]() {
                                     speechwindow.SpeekText(content);
                                 });
+                                OperationLogger logger;
+                                logger.logRequestResponse(ui->textEditUserQuery->toPlainText().toStdString(), content.toStdString());
                         
                             }
                         }
@@ -85,11 +118,7 @@ void MainWindow::on_pushButton_selectFile_clicked()
         std::string filecontent ;
         FileDig filedig;
         filecontent = filedig.getFileContent(filePath.toStdString());
-        if(filecontent.size()>4096)
-        {
-            size_t pos = filecontent.find("\n",4096);
-            filecontent=filecontent.substr(0,pos);
-        }
+
         // 获取文件名
         QFileInfo fileInfo(filePath);
         QString fileName = fileInfo.fileName();
@@ -156,11 +185,7 @@ void MainWindow::on_pushButton_selectFile2_clicked()
             std::string fileContent ;
             FileDig filedig;
             fileContent = filedig.getFileContent(filePath.toStdString());
-            if(fileContent.size()>4096)
-            {
-                size_t pos = fileContent.find("\n",4096);
-                fileContent=fileContent.substr(0,pos);
-            }
+
 
             // 获取文件名
             QFileInfo fileInfo(filePath);
@@ -255,11 +280,21 @@ void MainWindow::RequestWithContext()
     // 添加知识片段（模拟检索结果）
     if(!ui->lineEditFilePath1->text().isEmpty())
     {
-        injector.add_context(ui->lineEditFilePath1->text().toStdString(), ui->textEditFileContent->toPlainText().toStdString(), 0.92f);
+        std::string  filecontent = ui->textEditFileContent->toPlainText().toStdString();
+        if (filecontent.size() > 4096) {
+            size_t pos = filecontent.find("\n", 4096);
+            filecontent = filecontent.substr(0, pos);
+        }
+        injector.add_context(ui->lineEditFilePath1->text().toStdString(), filecontent, 0.92f);
     }
     if(!ui->lineEditFilePath2->text().isEmpty())
     {
-        injector.add_context(ui->lineEditFilePath2->text().toStdString(),  ui->textEditFileContent2->toPlainText().toStdString(), 0.87f);
+        std::string  filecontent = ui->textEditFileContent2->toPlainText().toStdString();
+        if (filecontent.size() > 4096) {
+            size_t pos = filecontent.find("\n", 4096);
+            filecontent = filecontent.substr(0, pos);
+        }
+        injector.add_context(ui->lineEditFilePath2->text().toStdString(), filecontent, 0.87f);
     }
 
     // 生成带上下文的prompt
@@ -301,6 +336,8 @@ void MainWindow::RequestWithContext()
     // 假设服务器期望的请求数据格式为 JSON，并且使用 POST 方法发送数据
     QJsonDocument jsonDoc(jsonData);
     QByteArray postData = jsonDoc.toJson();
+
+    requests.push_back(postData.toStdString().c_str());
 
   //  QNetworkRequest request(QUrl("http://localhost:1234/v1/chat/completions"));
     QNetworkRequest request(QUrl(configdlg.getUrl()));
@@ -345,10 +382,7 @@ void MainWindow::dropEvent(QDropEvent *event)
                 std::string filecontent;
                 FileDig filedig;
                 filecontent = filedig.getFileContent(filePath.toStdString());
-                if (filecontent.size() > 4096) {
-                    size_t pos = filecontent.find("\n", 4096);
-                    filecontent = filecontent.substr(0, pos);
-                }
+                
                 QFileInfo fileInfo(filePath);
                 QString fileName = fileInfo.fileName();
                 ui->lineEditFilePath1->setText(fileName);
@@ -358,10 +392,7 @@ void MainWindow::dropEvent(QDropEvent *event)
                 std::string filecontent;
                 FileDig filedig;
                 filecontent = filedig.getFileContent(filePath.toStdString());
-                if (filecontent.size() > 4096) {
-                    size_t pos = filecontent.find("\n", 4096);
-                    filecontent = filecontent.substr(0, pos);
-                }
+
                 QFileInfo fileInfo(filePath);
                 QString fileName = fileInfo.fileName();
                 ui->lineEditFilePath2->setText(fileName);

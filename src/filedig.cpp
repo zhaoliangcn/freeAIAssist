@@ -48,6 +48,7 @@ std::string FileDig::getFileContent(const std::string& filePath) {
     std::string filetype = getFileType(filePath);
     std::regex pattern_office("(doc|docx|xls|xlsx|ppt|pptx)");
     std::regex pattern_plaintext("(txt|csv|md|rtf|html|htm|xml|json|yaml|yml|log|conf|ini|cfg)");
+	std::regex pattern_pdf("pdf");
     if(std::regex_match(filetype, pattern_office))
     {
         int verbose = 0;
@@ -94,6 +95,22 @@ std::string FileDig::getFileContent(const std::string& filePath) {
         std::stringstream buffer;
         buffer << file.rdbuf();
         return buffer.str();
+    }
+    else if (std::regex_match(filetype, pattern_pdf))
+    {
+		std::string currentPath = GetCurrentModulePath();
+		char cmd[8192];
+		sprintf(cmd, "\"\"%s\\pdf\\pdftotext.exe\" -enc UTF-8 \"%s\" -\"", currentPath.c_str(), STRINGENCODE::U2A(filePath).c_str());
+		FILE* fp = _popen(cmd, "r");
+		if (fp)
+		{
+			char buffer[4096];
+			while (fgets(buffer, sizeof(buffer), fp))
+			{
+				filecontent += buffer;
+			}
+			_pclose(fp);
+		}
     }
     else
     {

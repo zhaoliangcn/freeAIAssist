@@ -11,7 +11,9 @@
 #include "httpconfigdialog.h"
 #include "aiassistantconfigdialog.h"
 #include "speechwindow.h"
-
+#include "chat_history.h"
+#include "commonsystempromptdialog.h"
+#include "TextSegment.h"
 #include <QDragEnterEvent>
 #include <QDropEvent>
 #include <QMimeData>
@@ -32,13 +34,13 @@ private slots:
     void handleNetworkReply(QNetworkReply *reply);
     void on_pushButton_selectFile_clicked(); 
     void on_AiServerConfig_clicked();
-
     void on_pushButton_2_clicked();
-
     void on_pushButton_selectFile2_clicked();
-
     void on_pushButton_3_clicked();
-
+    void on_menuItem_triggered();
+    void on_actionexit_triggered();
+    void on_actioncommonprompt_triggered(); // 补充在mainwindow.cpp中存在但mainwindow.h中缺失的函数定义
+    void on_actionfileimport_triggered();
 protected:
     void dragEnterEvent(QDragEnterEvent *event) override;
     void dropEvent(QDropEvent *event) override;
@@ -55,5 +57,9 @@ private:
     HttpConfigDialog configdlg;
     AiAssistantConfigDialog assistconfig;
     SpeechWindow  speechwindow;
+    ChatHistoryWindow  chathistorywindow;
+    CommonSystemPromptDialog  commonSystemPromptDialog;
+    TextSegment textSegment;
+    std::vector<QString> requests;
 };
 #endif // MAINWINDOW_H

@@ -115,7 +115,8 @@ QLabel {
             <string>选择文件</string>
            </property>
            <property name="icon">
-            <iconset theme="document-open"/>
+            <iconset theme="document-open">
+             <normaloff>.</normaloff>.</iconset>
            </property>
           </widget>
          </item>
@@ -172,7 +173,8 @@ QLabel {
             <string>选择文件</string>
            </property>
            <property name="icon">
-            <iconset theme="document-open"/>
+            <iconset theme="document-open">
+             <normaloff>.</normaloff>.</iconset>
            </property>
           </widget>
          </item>
@@ -227,7 +229,8 @@ QLabel {
          <string>AI服务器配置</string>
         </property>
         <property name="icon">
-         <iconset theme="preferences-system"/>
+         <iconset theme="preferences-system">
+          <normaloff>.</normaloff>.</iconset>
         </property>
        </widget>
       </item>
@@ -237,7 +240,8 @@ QLabel {
          <string>设置AI助手角色</string>
         </property>
         <property name="icon">
-         <iconset theme="preferences-desktop-user"/>
+         <iconset theme="preferences-desktop-user">
+          <normaloff>.</normaloff>.</iconset>
         </property>
        </widget>
       </item>
@@ -247,7 +251,8 @@ QLabel {
          <string>语音设置</string>
         </property>
         <property name="icon">
-         <iconset theme="audio-volume-high"/>
+         <iconset theme="audio-volume-high">
+          <normaloff>.</normaloff>.</iconset>
         </property>
        </widget>
       </item>
@@ -266,6 +271,58 @@ QLabel {
     </item>
    </layout>
   </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuSystem">
+    <property name="title">
+     <string>系统</string>
+    </property>
+    <addaction name="actionexit"/>
+   </widget>
+   <widget class="QMenu" name="menuview">
+    <property name="title">
+     <string>查看</string>
+    </property>
+    <addaction name="actionchathistory"/>
+    <addaction name="actioncommonprompt"/>
+   </widget>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>知识库</string>
+    </property>
+    <addaction name="actionfileimport"/>
+   </widget>
+   <addaction name="menuSystem"/>
+   <addaction name="menuview"/>
+   <addaction name="menu"/>
+  </widget>
+  <action name="actionexit">
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="actionchathistory">
+   <property name="text">
+    <string>聊天历史</string>
+   </property>
+  </action>
+  <action name="actioncommonprompt">
+   <property name="text">
+    <string>常用系统提示</string>
+   </property>
+  </action>
+  <action name="actionfileimport">
+   <property name="text">
+    <string>文件导入</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>

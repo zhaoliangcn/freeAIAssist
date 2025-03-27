@@ -4,6 +4,6 @@
         <file>ui/images/button.png</file>
     </qresource>
     <qresource prefix="/icons">
-        <file>aiassist.png</file>
+        <file>resources/images/aiassist.png</file>
     </qresource>
 </RCC>

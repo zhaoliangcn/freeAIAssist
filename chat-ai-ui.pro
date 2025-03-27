@@ -12,20 +12,31 @@ SOURCES += src/main.cpp \
            src/httpconfigdialog.cpp \
            src/aiassistantconfigdialog.cpp \
            src/filedig.cpp \
-           src/speechwindow.cpp 
+           src/speechwindow.cpp \
+           src/chat_history.cpp \
+           src/OperationLogger.cpp \
+           src/commonsystempromptdialog.cpp \
+           src/textsegment.cpp
 
 # 头文件
 HEADERS += include/mainwindow.h \
            include/httpconfigdialog.h \
            include/aiassistantconfigdialog.h \
            include/filedig.h \
-           include/speechwindow.h 
+           include/speechwindow.h \
+           include/chat_history.h \
+           include/OperationLogger.h \
+           include/commonsystempromptdialog.h \
+           include/textsegment.h
 
 # UI 文件
 FORMS += ui/mainwindow.ui \
+         ui/textsegment.ui \
          ui/speechwindow.ui \
          ui/httpconfigdialog.ui \
-         ui/aiassistantconfigdialog.ui
+         ui/aiassistantconfigdialog.ui \
+         ui/chat_history.ui \
+         ui/commonsystempromptdialog.ui
 
 INCLUDEPATH += include
 

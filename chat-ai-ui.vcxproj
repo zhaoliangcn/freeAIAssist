@@ -29,7 +29,7 @@
     <PrimaryOutput>chat-ai-ui</PrimaryOutput>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <OutputDirectory>debug\</OutputDirectory>
     <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
     <CharacterSet>NotSet</CharacterSet>
@@ -84,8 +84,7 @@
       <Optimization>MaxSpeed</Optimization>
       <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;NDEBUG;QT_NO_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessToFile>false</PreprocessToFile>
-      <ProgramDataBaseFileName>
-      </ProgramDataBaseFileName>
+      <ProgramDataBaseFileName></ProgramDataBaseFileName>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
@@ -196,7 +195,11 @@
     </QtUic>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\OperationLogger.cpp" />
+    <ClCompile Include="src\TextSegment.cpp" />
     <ClCompile Include="src\aiassistantconfigdialog.cpp" />
+    <ClCompile Include="src\chat_history.cpp" />
+    <ClCompile Include="src\commonsystempromptdialog.cpp" />
     <ClCompile Include="src\filedig.cpp" />
     <ClCompile Include="src\httpconfigdialog.cpp" />
     <ClCompile Include="src\main.cpp" />
@@ -204,7 +207,11 @@
     <ClCompile Include="src\speechwindow.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\OperationLogger.h" />
+    <ClInclude Include="include\TextSegment.h" />
     <QtMoc Include="include\aiassistantconfigdialog.h" />
+    <QtMoc Include="include\chat_history.h" />
+    <QtMoc Include="include\commonsystempromptdialog.h" />
     <ClInclude Include="include\filedig.h" />
     <QtMoc Include="include\httpconfigdialog.h" />
     <QtMoc Include="include\mainwindow.h" />
@@ -227,14 +234,17 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <QtUic Include="ui\TextSegment.ui" />
     <QtUic Include="ui\aiassistantconfigdialog.ui" />
+    <QtUic Include="ui\chat_history.ui" />
+    <QtUic Include="ui\commonsystempromptdialog.ui" />
     <QtUic Include="ui\httpconfigdialog.ui" />
     <QtUic Include="ui\mainwindow.ui" />
     <QtUic Include="ui\speechwindow.ui" />
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="ai.qrc" />
-    <None Include="aiassist.png" />
+    <None Include="resources\images\aiassist.png" />
     <None Include="ui\images\background.png" />
     <None Include="ui\images\button.png" />
   </ItemGroup>

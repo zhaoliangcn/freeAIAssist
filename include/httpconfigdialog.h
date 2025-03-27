@@ -1,4 +1,4 @@
-﻿#ifndef HTTPCONFIGDIALOG_H
+#ifndef HTTPCONFIGDIALOG_H
 #define HTTPCONFIGDIALOG_H
 
 #include <QDialog>
