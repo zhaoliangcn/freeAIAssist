@@ -18,7 +18,7 @@ robocopy "release" "temp" *.dll /s /njh /njs /ndl /nc /ns /np
 robocopy "release" "temp" *.json /s /njh /njs /ndl /nc /ns /np
 robocopy "release\doctotext" "temp\doctotext" * /s /njh /njs /ndl /nc /ns /np
 robocopy "release\plugins" "temp\plugins" * /s /njh /njs /ndl /nc /ns /np
-
+robocopy "release\pdf" "temp\plugins" * /s /njh /njs /ndl /nc /ns /np
 REM 打包为 release.zip
 powershell -Command "Compress-Archive -Path 'temp\*' -DestinationPath 'release.zip' -Force"
 

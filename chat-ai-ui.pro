@@ -16,7 +16,8 @@ SOURCES += src/main.cpp \
            src/chat_history.cpp \
            src/OperationLogger.cpp \
            src/commonsystempromptdialog.cpp \
-           src/textsegment.cpp
+           src/textsegment.cpp \
+           src/KnowledgeBaseManager.cpp
 
 # 头文件
 HEADERS += include/mainwindow.h \
@@ -27,7 +28,8 @@ HEADERS += include/mainwindow.h \
            include/chat_history.h \
            include/OperationLogger.h \
            include/commonsystempromptdialog.h \
-           include/textsegment.h
+           include/textsegment.h \
+           incldue/KnowledgeBaseManager.h 
 
 # UI 文件
 FORMS += ui/mainwindow.ui \
@@ -36,7 +38,8 @@ FORMS += ui/mainwindow.ui \
          ui/httpconfigdialog.ui \
          ui/aiassistantconfigdialog.ui \
          ui/chat_history.ui \
-         ui/commonsystempromptdialog.ui
+         ui/commonsystempromptdialog.ui \
+         ui/KnowledgeBase.ui
 
 INCLUDEPATH += include
 

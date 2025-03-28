@@ -3,10 +3,10 @@
 
 #include <QDialog
 #include <QString>
-
+#include <QMap>
 namespace Ui {
 class KnowledgeBase;
-}<QMap>
+}
 
 
 class KnowledgeBase : public QDialog
