@@ -23,7 +23,10 @@ void MainWindow::on_actioncommonprompt_triggered() {
     // 在这里实现常用系统提示操作，例如弹出提示框
     commonSystemPromptDialog.exec();
 }
-
+void MainWindow::on_actionkbmanager_triggered()
+{
+    knowledgeBase.exec();
+}
 void MainWindow::on_actionfileimport_triggered() {
     textSegment.exec();
 }
@@ -51,9 +54,10 @@ MainWindow::MainWindow(QWidget *parent) :
     connect(ui->actionexit, &QAction::triggered, this, &MainWindow::on_actionexit_triggered);
     // 连接actioncommonprompt的信号槽
     connect(ui->actioncommonprompt, &QAction::triggered, this, &MainWindow::on_actioncommonprompt_triggered);
-
     // 连接actionfileimport的信号槽
     connect(ui->actionfileimport, &QAction::triggered, this, &MainWindow::on_actionfileimport_triggered);
+
+    connect(ui->actionkbmanage, &QAction::triggered, this, &MainWindow::on_actionkbmanager_triggered);
     
 }
 

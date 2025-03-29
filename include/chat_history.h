@@ -3,11 +3,11 @@
 
 #include <QDialog>
 #include <OperationLogger.h>
-
+QT_BEGIN_NAMESPACE
 namespace Ui {
     class ChatHistoryWindow;
     }
-    
+    QT_END_NAMESPACE   
 //#include "OperationLogger.hpp" // 添加对OperationLogger.hpp的引用
 
 class ChatHistoryWindow : public QDialog

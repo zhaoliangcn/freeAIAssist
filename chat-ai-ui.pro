@@ -17,6 +17,7 @@ SOURCES += src/main.cpp \
            src/OperationLogger.cpp \
            src/commonsystempromptdialog.cpp \
            src/textsegment.cpp \
+           src/knowledgebase.cpp \
            src/KnowledgeBaseManager.cpp
 
 # 头文件
@@ -29,6 +30,7 @@ HEADERS += include/mainwindow.h \
            include/OperationLogger.h \
            include/commonsystempromptdialog.h \
            include/textsegment.h \
+           include/knowledgebase.h \
            incldue/KnowledgeBaseManager.h 
 
 # UI 文件

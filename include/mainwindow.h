@@ -14,6 +14,7 @@
 #include "chat_history.h"
 #include "commonsystempromptdialog.h"
 #include "TextSegment.h"
+#include "knowledgebase.h"
 #include <QDragEnterEvent>
 #include <QDropEvent>
 #include <QMimeData>
@@ -39,8 +40,9 @@ private slots:
     void on_pushButton_3_clicked();
     void on_menuItem_triggered();
     void on_actionexit_triggered();
-    void on_actioncommonprompt_triggered(); // 补充在mainwindow.cpp中存在但mainwindow.h中缺失的函数定义
+    void on_actioncommonprompt_triggered(); 
     void on_actionfileimport_triggered();
+    void on_actionkbmanager_triggered();
 protected:
     void dragEnterEvent(QDragEnterEvent *event) override;
     void dropEvent(QDropEvent *event) override;
@@ -60,6 +62,7 @@ private:
     ChatHistoryWindow  chathistorywindow;
     CommonSystemPromptDialog  commonSystemPromptDialog;
     TextSegment textSegment;
+    KnowledgeBase knowledgeBase;
     std::vector<QString> requests;
 };
 #endif // MAINWINDOW_H

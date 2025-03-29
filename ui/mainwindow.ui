@@ -298,6 +298,7 @@ QLabel {
      <string>知识库</string>
     </property>
     <addaction name="actionfileimport"/>
+    <addaction name="actionkbmanage"/>
    </widget>
    <addaction name="menuSystem"/>
    <addaction name="menuview"/>
@@ -321,6 +322,11 @@ QLabel {
   <action name="actionfileimport">
    <property name="text">
     <string>文件导入</string>
+   </property>
+  </action>
+  <action name="actionkbmanage">
+   <property name="text">
+    <string>知识库管理</string>
    </property>
   </action>
  </widget>

@@ -4,11 +4,11 @@
 #include <QDialog>
 #include <QNetworkAccessManager>
 #include <QNetworkReply>
-
+QT_BEGIN_NAMESPACE
 namespace Ui {
 class HttpConfigDialog;
 }
-
+QT_END_NAMESPACE
 class HttpConfigDialog : public QDialog
 {
     Q_OBJECT
