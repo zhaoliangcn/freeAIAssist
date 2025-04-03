@@ -1,0 +1,11 @@
+release/
+debug/
+.vs/
+thirdparty/
+ui_*.h
+*.filters
+*.user
+include_temp
+ui_temp
+.qmake.stash
+.vscode/

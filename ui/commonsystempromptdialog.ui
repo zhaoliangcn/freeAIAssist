@@ -1,0 +1,52 @@
+<ui version="4.0">
+    <class>CommonSystemPromptDialog</class>
+    <widget class="QDialog" name="CommonSystemPromptDialog">
+        <property name="styleSheet">
+            <string notr="true">QDialog#CommonSystemPromptDialog {
+    background-image: url(:/ui/images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #f0f0f0;
+}
+QTableWidget {
+    background-color: rgba(255, 255, 255, 220);
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: 4px;
+}
+QLabel {
+    color: #333333;
+}</string>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>400</width>
+                <height>300</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>常用系统提示</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+            <widget class="QTableWidget" name="tableWidget">
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>10</y>
+                        <width>380</width>
+                        <height>280</height>
+                    </rect>
+                </property>
+            </widget>
+        </item>
+        </layout>
+    </widget>
+    <resources>
+
+</resources>
+    <connections/>
+</ui>

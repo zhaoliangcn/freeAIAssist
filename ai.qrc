@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ui/images/background.png</file>
+        <file>ui/images/button.png</file>
+    </qresource>
+    <qresource prefix="/icons">
+        <file>resources/images/aiassist.png</file>
+    </qresource>
+</RCC>
