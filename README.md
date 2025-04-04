@@ -20,3 +20,7 @@ ollama , lmstudio , oneapi 可以从其官网地址下载。
 ollama, lmstudio, and oneapi can be downloaded from their official websites.
 
 [如何构建项目](docs/howtobuild.md) / [How to Build the Project](docs/howtobuild.md)
+
+[使用说明](docs/usage.md) / [Usage Guide](docs/usage_en.md)
+
+[设计文档](docs/design.md) / [Design Document](docs/design_en.md)
