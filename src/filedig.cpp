@@ -31,7 +31,6 @@
 #include <sstream>
 #include <cctype>
 #include <regex>
-//#include "../thirdparty/include/doctotext_c_api.h"
 #include "../thirdparty/include/StringEncode.hpp"
 #include "util.hpp"
 
@@ -54,18 +53,6 @@ std::string FileDig::getFileContent(const std::string& filePath) {
         int verbose = 0;
         try
         {
-            // DocToTextExtractorParams* params = doctotext_create_extractor_params();
-            // DocToTextException* exception = NULL;
-            // doctotext_extractor_params_set_verbose_logging(params, verbose);
-            // doctotext_extractor_params_set_log_file(params, "");
-            // DocToTextExtractedData* text_data = doctotext_process_file(STRINGENCODE::U2A(filePath).c_str(), params, &exception);
-            // doctotext_free_extractor_params(params);
-            // if (text_data)
-            // {
-            //     //printf("%s\n", doctotext_extracted_data_get_text(text_data));
-            //     filecontent = doctotext_extracted_data_get_text(text_data);
-            //     doctotext_free_extracted_data(text_data);
-            // }
             std::string currentPath = GetCurrentModulePath();
             char cmd[8192];
             sprintf(cmd, "\"\"%s\\doctotext\\doctotext.exe\"  \"%s\"\"", currentPath.c_str(), STRINGENCODE::U2A(filePath).c_str());

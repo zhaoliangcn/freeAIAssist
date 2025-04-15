@@ -18,6 +18,7 @@ HttpConfigDialog::HttpConfigDialog(QWidget *parent) :
     // 连接网络管理器完成信号到处理响应槽函数
     connect(networkManager, &QNetworkAccessManager::finished, this, &HttpConfigDialog::handleTestResponse);
     // 设置默认URL
+	// LMStudio
     ui->comboBoxUrl->setCurrentText("http://localhost:1234/v1/chat/completions");
     // 设置默认模型名称
     ui->comboBoxModel->setCurrentText("qwen2.5-coder-3b-instruct");
