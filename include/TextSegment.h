@@ -24,6 +24,7 @@ private:
     void splitText(const QString &text);
     QStringList splitTextByNewlines(const QString &text);
     QStringList splitTextByEmptyLines(const QString &text);
+    bool textProcessed;
 };
 
 #endif // TEXTSegment_H

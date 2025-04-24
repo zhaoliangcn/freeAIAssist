@@ -1,4 +1,4 @@
-#ifndef HTTPCONFIGDIALOG_H
+﻿#ifndef HTTPCONFIGDIALOG_H
 #define HTTPCONFIGDIALOG_H
 
 #include <QDialog>
@@ -28,6 +28,8 @@ private slots:
     void handleTestResponse(QNetworkReply *reply);
 
 private:
+    void init_ui();  // 添加初始化UI的私有函数声明
+    void onConfigChanged(int index);  // 添加配置改变处理函数声明
     Ui::HttpConfigDialog *ui;
     QNetworkAccessManager *networkManager;
 };

@@ -1,4 +1,4 @@
-#include "TextSegment.h"
+﻿#include "TextSegment.h"
 #include "ui_TextSegment.h"
 #include <QFileDialog>
 #include <QFile>
@@ -6,9 +6,11 @@
 
 TextSegment::TextSegment(QWidget *parent) :
     QDialog(parent),
+    textProcessed(false),
     ui(new Ui::TextSegment)
 {
     ui->setupUi(this);
+    ui->option2->setChecked(true);
 }
 
 TextSegment::~TextSegment()
@@ -18,14 +20,49 @@ TextSegment::~TextSegment()
 
 void TextSegment::on_processButton_clicked()
 {
-    QString text = ui->resultText->toPlainText();
-    QStringList segments = splitTextByEmptyLines(text);
-    ui->resultText->setText(segments.join("\n---\n"));
+
+    if(textProcessed){
+        QString fileName = ui->fileNameText->text();
+        QFile file(fileName);
+        if (file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+            QTextStream in(&file);
+            in.setCodec("UTF-8");
+            QString content = in.readAll();
+            QStringList segments;
+            if(ui->option1->isChecked())
+            {
+                segments = splitTextByEmptyLines(content);
+            }
+            else if(ui->option2->isChecked())
+            {
+                segments = splitTextByNewlines(content);
+            }
+
+            ui->resultText->setText(segments.join("\n---\n")); // 用分隔符显示分割结果
+            file.close();
+            textProcessed = true;
+        }
+    }
+    else {
+        QString content = ui->resultText->toPlainText();
+        QStringList segments;
+        if(ui->option1->isChecked())
+        {
+            segments = splitTextByEmptyLines(content);
+        }
+        else if(ui->option2->isChecked())
+        {
+            segments = splitTextByNewlines(content);
+        }
+        ui->resultText->setText(segments.join("\n---\n"));
+        textProcessed = true;
+    }
+
 }
 
 void TextSegment::on_selectFileButton_clicked()
 {
-    QString fileName = QFileDialog::getOpenFileName(this, tr("选择文件"), "", tr("文本文件 (*.txt);;所有文件 (*)"));
+    QString fileName = QFileDialog::getOpenFileName(this, tr(u8"选择文件"), "", tr(u8"文本文件 (*.txt);;所有文件 (*)"));
     if (!fileName.isEmpty()) {
         ui->fileNameText->setText(fileName);
         QFile file(fileName);
@@ -33,9 +70,18 @@ void TextSegment::on_selectFileButton_clicked()
             QTextStream in(&file);
             in.setCodec("UTF-8");
             QString content = in.readAll();
-            QStringList segments = splitTextByEmptyLines(content);
+            QStringList segments;
+            if(ui->option1->isChecked())
+            {
+                segments = splitTextByEmptyLines(content);
+            }
+            else if(ui->option2->isChecked())
+            {
+                segments = splitTextByNewlines(content);
+            }
             ui->resultText->setText(segments.join("\n---\n")); // 用分隔符显示分割结果
             file.close();
+            textProcessed = true;
         }
     }
 }

@@ -8,26 +8,48 @@
 #include <QNetworkReply>
 
 HttpConfigDialog::HttpConfigDialog(QWidget *parent) :
-    QDialog(parent),  // 调用父类构造函数
-    ui(new Ui::HttpConfigDialog),  // 创建UI对象
-    networkManager(new QNetworkAccessManager(this))  // 创建网络管理器
+    QDialog(parent),
+    ui(new Ui::HttpConfigDialog),
+    networkManager(new QNetworkAccessManager(this))
 {
-    ui->setupUi(this);  // 初始化UI
-    // 连接测试按钮点击信号到测试连接槽函数
-    connect(ui->testButton, &QPushButton::clicked, this, &HttpConfigDialog::testConnection);
-    // 连接网络管理器完成信号到处理响应槽函数
-    connect(networkManager, &QNetworkAccessManager::finished, this, &HttpConfigDialog::handleTestResponse);
-    // 设置默认URL
-	// LMStudio
-    ui->comboBoxUrl->setCurrentText("http://localhost:1234/v1/chat/completions");
-    // 设置默认模型名称
-    ui->comboBoxModel->setCurrentText("qwen2.5-coder-3b-instruct");
+    ui->setupUi(this);
+    init_ui();  // 调用初始化UI的函数
+}
 
+void HttpConfigDialog::init_ui()
+{
+    // 连接信号和槽
+    connect(ui->testButton, &QPushButton::clicked, this, &HttpConfigDialog::testConnection);
+    connect(networkManager, &QNetworkAccessManager::finished, this, &HttpConfigDialog::handleTestResponse);
+    connect(ui->comboBoxConfig, QOverload<int>::of(&QComboBox::currentIndexChanged),
+            this, &HttpConfigDialog::onConfigChanged);
+    
+    // 设置默认URL和模型
+    ui->comboBoxUrl->setCurrentText("http://localhost:1234/v1/chat/completions");
+    ui->comboBoxModel->setCurrentText("qwen2.5-coder-3b-instruct");
+    
+    // 设置默认token
     setToken("sk-yNhfdrrAbhSAyKQr34E569Db02504302A369747b32664d9e");
     
     // 设置按钮文字
     ui->buttonBox->button(QDialogButtonBox::Ok)->setText(u8"确定");
     ui->buttonBox->button(QDialogButtonBox::Cancel)->setText(u8"取消");
+}
+
+void HttpConfigDialog::onConfigChanged(int index)
+{
+    QString config = ui->comboBoxConfig->itemText(index);
+    
+    if (config == u8"ollama默认配置") {
+        ui->comboBoxUrl->setCurrentText("http://localhost:11434/chat");
+        ui->comboBoxModel->setCurrentText("qwen2.5-coder:3b");
+    } else if (config == u8"lmstudio默认配置") {
+        ui->comboBoxUrl->setCurrentText("http://localhost:1234/v1/chat/completions");
+        ui->comboBoxModel->setCurrentText("qwen2.5-coder-3b-instruct");
+    } else if (config == u8"onapi默认配置") {
+        ui->comboBoxUrl->setCurrentText("http://localhost:3000/v1/chat/completions");
+        ui->comboBoxModel->setCurrentText("qwen2.5-coder-7b-instruct");
+    }
 }
 
 HttpConfigDialog::~HttpConfigDialog()

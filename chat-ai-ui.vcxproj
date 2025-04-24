@@ -195,27 +195,31 @@
     </QtUic>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\KnowledgeBaseManager.cpp" />
     <ClCompile Include="src\OperationLogger.cpp" />
-    <ClCompile Include="src\TextSegment.cpp" />
     <ClCompile Include="src\aiassistantconfigdialog.cpp" />
     <ClCompile Include="src\chat_history.cpp" />
     <ClCompile Include="src\commonsystempromptdialog.cpp" />
     <ClCompile Include="src\filedig.cpp" />
     <ClCompile Include="src\httpconfigdialog.cpp" />
+    <ClCompile Include="src\knowledgebase.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\mainwindow.cpp" />
     <ClCompile Include="src\speechwindow.cpp" />
+    <ClCompile Include="src\textsegment.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="incldue\KnowledgeBaseManager.h" />
     <ClInclude Include="include\OperationLogger.h" />
-    <ClInclude Include="include\TextSegment.h" />
     <QtMoc Include="include\aiassistantconfigdialog.h" />
     <QtMoc Include="include\chat_history.h" />
     <QtMoc Include="include\commonsystempromptdialog.h" />
     <ClInclude Include="include\filedig.h" />
     <QtMoc Include="include\httpconfigdialog.h" />
+    <QtMoc Include="include\knowledgebase.h" />
     <QtMoc Include="include\mainwindow.h" />
     <QtMoc Include="include\speechwindow.h" />
+    <QtMoc Include="include\textsegment.h" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="debug\moc_predefs.h.cbt">
@@ -234,13 +238,14 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <QtUic Include="ui\TextSegment.ui" />
+    <QtUic Include="ui\KnowledgeBase.ui" />
     <QtUic Include="ui\aiassistantconfigdialog.ui" />
     <QtUic Include="ui\chat_history.ui" />
     <QtUic Include="ui\commonsystempromptdialog.ui" />
     <QtUic Include="ui\httpconfigdialog.ui" />
     <QtUic Include="ui\mainwindow.ui" />
     <QtUic Include="ui\speechwindow.ui" />
+    <QtUic Include="ui\textsegment.ui" />
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="ai.qrc" />

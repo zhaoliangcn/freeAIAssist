@@ -1,4 +1,4 @@
-#include "KnowledgeBase.h"
+﻿#include "KnowledgeBase.h"
 #include "ui_KnowledgeBase.h"
 #include <QFileDialog>
 #include <QFile>

@@ -61,14 +61,14 @@ QLabel {
      <property name="verticalSpacing">
       <number>12</number>
      </property>
-     <item row="0" column="0">
+     <item row="1" column="0">
       <widget class="QLabel" name="label">
        <property name="text">
         <string>服务器地址：</string>
        </property>
       </widget>
      </item>
-     <item row="0" column="1">
+     <item row="1" column="1">
       <widget class="QComboBox" name="comboBoxUrl">
        <property name="editable">
         <bool>true</bool>
@@ -95,14 +95,43 @@ QLabel {
        </item>
       </widget>
      </item>
-     <item row="1" column="0">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>默认配置：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QComboBox" name="comboBoxConfig">
+       <property name="editable">
+        <bool>true</bool>
+       </property>
+       <item>
+        <property name="text">
+         <string>ollama默认配置</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>lmstudio默认配置</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>onapi默认配置</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="2" column="0">
       <widget class="QLabel" name="label_2">
        <property name="text">
         <string>AI模型：</string>
        </property>
       </widget>
      </item>
-     <item row="1" column="1">
+     <item row="2" column="1">
       <widget class="QComboBox" name="comboBoxModel">
        <property name="editable">
         <bool>true</bool>
@@ -129,14 +158,14 @@ QLabel {
        </item>
       </widget>
      </item>
-     <item row="2" column="0">
+     <item row="3" column="0">
       <widget class="QLabel" name="label_3">
        <property name="text">
         <string>访问令牌：</string>
        </property>
       </widget>
      </item>
-     <item row="2" column="1">
+     <item row="3" column="1">
       <widget class="QLineEdit" name="lineEditToken">
        <property name="placeholderText">
         <string>请输入访问令牌</string>
