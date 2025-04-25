@@ -10,6 +10,24 @@
     <height>600</height>
    </rect>
   </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow {
+    background-image: url(:/ui/images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #f0f0f0;
+}
+QTextEdit, QPlainTextEdit {
+    background-color: rgba(255, 255, 255, 220);
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: 4px;
+}
+QLabel {
+    color: #333333;
+}</string>
+  </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
     <widget class="QTextBrowser" name="chatDisplay">
@@ -19,25 +37,29 @@
     </widget>
    </item>
    <item>
-    <widget class="QLineEdit" name="chatInput">
-     <property name="placeholderText">
-      <string>输入消息...</string>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QPushButton" name="sendButton">
-     <property name="text">
-      <string>发送</string>
-     </property>
-    </widget>
-   </item>
-   <item>
-    <widget class="QPushButton" name="clearContextButton">
-     <property name="text">
-      <string>清理上下文</string>
-     </property>
-    </widget>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLineEdit" name="chatInput">
+       <property name="placeholderText">
+        <string>输入消息...</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="sendButton">
+       <property name="text">
+        <string>发送</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="clearContextButton">
+       <property name="text">
+        <string>清理上下文</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </item>
   </layout>
  </widget>
