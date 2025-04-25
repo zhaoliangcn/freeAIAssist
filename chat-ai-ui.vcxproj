@@ -20,7 +20,7 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <OutputDirectory>release\</OutputDirectory>
     <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
     <CharacterSet>NotSet</CharacterSet>
@@ -84,7 +84,8 @@
       <Optimization>MaxSpeed</Optimization>
       <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;NDEBUG;QT_NO_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessToFile>false</PreprocessToFile>
-      <ProgramDataBaseFileName></ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>
+      </ProgramDataBaseFileName>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
@@ -199,6 +200,7 @@
     <ClCompile Include="src\OperationLogger.cpp" />
     <ClCompile Include="src\aiassistantconfigdialog.cpp" />
     <ClCompile Include="src\chat_history.cpp" />
+    <ClCompile Include="src\chat_window.cpp" />
     <ClCompile Include="src\commonsystempromptdialog.cpp" />
     <ClCompile Include="src\filedig.cpp" />
     <ClCompile Include="src\httpconfigdialog.cpp" />
@@ -213,6 +215,7 @@
     <ClInclude Include="include\OperationLogger.h" />
     <QtMoc Include="include\aiassistantconfigdialog.h" />
     <QtMoc Include="include\chat_history.h" />
+    <QtMoc Include="include\chat_window.h" />
     <QtMoc Include="include\commonsystempromptdialog.h" />
     <ClInclude Include="include\filedig.h" />
     <QtMoc Include="include\httpconfigdialog.h" />
@@ -241,6 +244,7 @@
     <QtUic Include="ui\KnowledgeBase.ui" />
     <QtUic Include="ui\aiassistantconfigdialog.ui" />
     <QtUic Include="ui\chat_history.ui" />
+    <QtUic Include="ui\chat_window.ui" />
     <QtUic Include="ui\commonsystempromptdialog.ui" />
     <QtUic Include="ui\httpconfigdialog.ui" />
     <QtUic Include="ui\mainwindow.ui" />
