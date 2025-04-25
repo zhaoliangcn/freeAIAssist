@@ -1,5 +1,6 @@
 #include "chat_window.h"
 #include "ui_chat_window.h"
+#include "OperationLogger.h"
 
 
 ChatWindow::ChatWindow(QWidget *parent) :
@@ -64,6 +65,8 @@ void ChatWindow::handleNetworkReply(QNetworkReply *reply)
 {
     QString errorMessage;
     if (reply->error() == QNetworkReply::NoError) {
+        OperationLogger logger;
+        logger.logRequestResponse(currentMessage.toStdString(), reply->readAll().toStdString());
         QByteArray responseData = reply->readAll();
         QJsonDocument jsonDoc = QJsonDocument::fromJson(responseData);
         if (!jsonDoc.isNull() && jsonDoc.isObject()) {

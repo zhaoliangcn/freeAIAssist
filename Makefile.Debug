@@ -2997,7 +2997,8 @@ debug\chat_window.obj: src\chat_window.cpp include\chat_window.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtCore\qjsonobject.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtCore\QJsonArray \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtCore\qjsonarray.h \
-		ui_chat_window.h
+		ui_chat_window.h \
+		include\OperationLogger.h
 
 debug\qrc_ai.obj: debug\qrc_ai.cpp 
 
