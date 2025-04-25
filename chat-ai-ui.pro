@@ -19,7 +19,8 @@ SOURCES += src/main.cpp \
            src/textsegment.cpp \
            src/knowledgebase.cpp \
            src/KnowledgeBaseManager.cpp \
-           src/chat_window.cpp
+           src/chat_window.cpp \
+           src/aiconfig.cpp
 
 # 头文件
 HEADERS += include/mainwindow.h \
@@ -33,7 +34,8 @@ HEADERS += include/mainwindow.h \
            include/textsegment.h \
            include/knowledgebase.h \
            incldue/KnowledgeBaseManager.h \
-           include/chat_window.h 
+           include/chat_window.h \
+           include/aiconfig.h
 
 # UI 文件
 FORMS += ui/mainwindow.ui \
@@ -47,8 +49,6 @@ FORMS += ui/mainwindow.ui \
          ui/chat_window.ui
 
 INCLUDEPATH += include
-
-LIBS += ../chat-ai-ui/thirdparty/lib/libdoc2text.lib 
 
 win32{
 LIBS += user32.lib

@@ -22,6 +22,7 @@ public:
 
     QString getToken() const;
     void setToken(const QString &token);
+    void saveConfig();
 
 private slots:
     void testConnection();

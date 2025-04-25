@@ -8,7 +8,6 @@ AIConfig::AIConfig(QObject *parent) : QObject(parent)
 {
     configFilePath = "config.json";
 }
-
 AIConfig& AIConfig::instance()
 {
     if (!m_instance)

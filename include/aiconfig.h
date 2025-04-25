@@ -3,6 +3,7 @@
 
 #include <QObject>
 #include <QJsonObject>
+#include <QMutex>
 
 class AIConfig : public QObject
 {
@@ -10,9 +11,8 @@ class AIConfig : public QObject
 
 public:
     static AIConfig& instance();
-private:
-    explicit AIConfig(QObject *parent = nullptr);
 
+    
     void saveConfig(const QJsonObject &config);
     QJsonObject loadConfig();
 
@@ -32,6 +32,9 @@ private:
     QString getRolePrompt() const;
     void setRolePrompt(const QString &prompt);
     
+private:
+    explicit AIConfig(QObject *parent = nullptr);
+   
 private:
     static AIConfig* m_instance;
     QString configFilePath;

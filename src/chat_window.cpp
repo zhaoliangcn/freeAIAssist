@@ -1,6 +1,7 @@
 #include "chat_window.h"
 #include "ui_chat_window.h"
 #include "OperationLogger.h"
+#include "aiconfig.h"
 
 
 ChatWindow::ChatWindow(QWidget *parent) :
@@ -16,7 +17,7 @@ ChatWindow::ChatWindow(QWidget *parent) :
 void ChatWindow::sendMessage(const QString &message)
 {
     QNetworkRequest request;
-    request.setUrl(QUrl("http://localhost:1234/v1/chat/completions"));
+    request.setUrl(QUrl(AIConfig::instance().getUrl()));
     request.setHeader(QNetworkRequest::ContentTypeHeader, "application/json");
 
     QJsonObject json;

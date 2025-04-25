@@ -6,6 +6,9 @@
 #include <QNetworkAccessManager>
 #include <QNetworkRequest>
 #include <QNetworkReply>
+#include <QJsonDocument>
+#include <QJsonObject>
+#include "aiconfig.h"
 
 HttpConfigDialog::HttpConfigDialog(QWidget *parent) :
     QDialog(parent),
@@ -19,6 +22,7 @@ HttpConfigDialog::HttpConfigDialog(QWidget *parent) :
 void HttpConfigDialog::init_ui()
 {
     // 连接信号和槽
+    connect(ui->buttonBox->button(QDialogButtonBox::Ok), &QPushButton::clicked, this, &HttpConfigDialog::saveConfig);
     connect(ui->testButton, &QPushButton::clicked, this, &HttpConfigDialog::testConnection);
     connect(networkManager, &QNetworkAccessManager::finished, this, &HttpConfigDialog::handleTestResponse);
     connect(ui->comboBoxConfig, QOverload<int>::of(&QComboBox::currentIndexChanged),
@@ -75,6 +79,19 @@ QString HttpConfigDialog::getToken() const
 void HttpConfigDialog::setToken(const QString &token)
 {
     ui->lineEditToken->setText(token);  // 设置访问令牌输入框的内容
+}
+
+void HttpConfigDialog::saveConfig()
+{
+    AIConfig& config = AIConfig::instance();
+    config.setUrl(ui->comboBoxUrl->currentText());
+    config.setModel(ui->comboBoxModel->currentText());
+    config.setToken(ui->lineEditToken->text());
+    QJsonObject jsonConfig;
+    jsonConfig["url"] = ui->comboBoxUrl->currentText();
+    jsonConfig["model"] = ui->comboBoxModel->currentText();
+    jsonConfig["token"] = ui->lineEditToken->text();
+    config.saveConfig(jsonConfig);
 }
 
 void HttpConfigDialog::testConnection()
