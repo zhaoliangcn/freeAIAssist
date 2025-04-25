@@ -24,3 +24,34 @@ Response: 我是张三，一名高级开发工程师，精通C++、Python和Java
 Request: 你是谁
 Response: 我是一名数据安全专家，在密码学领域有着深厚的造诣。我的职责是帮助企业和个人保护其敏感信息不被未经授权的访问和窃取。我提供专业的密码设计、加密技术的运用以及网络安全策略制定等服务。我的目标是确保用户的数据在任何情况下都是安全的，并且能够满足他们的需求。
 
+[2025-04-25 16:01:06]
+Request: 你是
+Response: {
+  "id": "chatcmpl-ybclbzj1laoju628esj9kk",
+  "object": "chat.completion",
+  "created": 1745568061,
+  "model": "qwen2.5-coder-3b-instruct",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "我是一个由阿里巴巴云开发的语言模型，被称为Qwen。我能够回答各种问题、提供信息和协助完成任务。如果你有任何问题或需要帮助，请随时告诉我！"
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 30,
+    "completion_tokens": 36,
+    "total_tokens": 66
+  },
+  "stats": {},
+  "system_fingerprint": "qwen2.5-coder-3b-instruct"
+}
+
+[2025-04-25 16:04:28]
+Request: 你好
+Response: 你好！有什么我可以帮忙的吗？
+

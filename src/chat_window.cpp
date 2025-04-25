@@ -65,8 +65,6 @@ void ChatWindow::handleNetworkReply(QNetworkReply *reply)
 {
     QString errorMessage;
     if (reply->error() == QNetworkReply::NoError) {
-        OperationLogger logger;
-        logger.logRequestResponse(currentMessage.toStdString(), reply->readAll().toStdString());
         QByteArray responseData = reply->readAll();
         QJsonDocument jsonDoc = QJsonDocument::fromJson(responseData);
         if (!jsonDoc.isNull() && jsonDoc.isObject()) {
@@ -80,6 +78,10 @@ void ChatWindow::handleNetworkReply(QNetworkReply *reply)
                             QJsonObject messageObj = choiceObj["message"].toObject();
                             if (messageObj.contains("content") && messageObj["content"].isString()) {
                                 QString content = messageObj["content"].toString();
+
+                                OperationLogger logger;
+                                logger.logRequestResponse(currentMessage.toStdString(), content.toStdString());
+        
                                 messageHistory.append(QString("**用户**: %1").arg(currentMessage));
                                 messageHistory.append(QString("**AI**: %1").arg(content));
                                 ui->chatDisplay->setMarkdown(messageHistory.join("\n\n"));
