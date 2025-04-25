@@ -284,6 +284,7 @@ QLabel {
     <property name="title">
      <string>系统</string>
     </property>
+    <addaction name="actionchat"/>
     <addaction name="actionexit"/>
    </widget>
    <widget class="QMenu" name="menuview">
@@ -304,6 +305,11 @@ QLabel {
    <addaction name="menuview"/>
    <addaction name="menu"/>
   </widget>
+  <action name="actionchat">
+   <property name="text">
+    <string>聊天</string>
+   </property>
+  </action>
   <action name="actionexit">
    <property name="text">
     <string>退出</string>

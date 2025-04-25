@@ -406,6 +406,7 @@ release\moc_mainwindow.cpp: include\mainwindow.h \
 		include\TextSegment.h \
 		include\knowledgebase.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtCore\QMap \
+		include\chat_window.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtGui\QDragEnterEvent \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtGui\QDropEvent \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtCore\QMimeData \
@@ -1225,8 +1226,8 @@ release\moc_knowledgebase.cpp: include\knowledgebase.h \
 	C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include C:/Users/coder/Desktop/chat-ai/chat-ai-ui/release/moc_predefs.h -IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/mkspecs/win32-msvc -IC:/Users/coder/Desktop/chat-ai/chat-ai-ui -IC:/Users/coder/Desktop/chat-ai/chat-ai-ui/include -IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include -IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtWidgets -IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtGui -IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtANGLE -IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtNetwork -IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtTextToSpeech -IC:/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" include\knowledgebase.h -o release\moc_knowledgebase.cpp
 
 release\moc_chat_window.cpp: include\chat_window.h \
-		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtWidgets\QWidget \
-		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtWidgets\qwidget.h \
+		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtWidgets\QDialog \
+		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtWidgets\qdialog.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtWidgets\qtwidgetsglobal.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtGui\qtguiglobal.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtCore\qglobal.h \
@@ -1252,6 +1253,7 @@ release\moc_chat_window.cpp: include\chat_window.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtCore\qversiontagging.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtGui\qtgui-config.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtWidgets\qtwidgets-config.h \
+		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtWidgets\qwidget.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtGui\qwindowdefs.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtCore\qobjectdefs.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtCore\qnamespace.h \
@@ -1585,6 +1587,7 @@ release\main.obj: src\main.cpp include\mainwindow.h \
 		include\TextSegment.h \
 		include\knowledgebase.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtCore\QMap \
+		include\chat_window.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtGui\QDragEnterEvent \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtGui\QDropEvent \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtCore\QMimeData \
@@ -1759,6 +1762,7 @@ release\mainwindow.obj: src\mainwindow.cpp include\mainwindow.h \
 		include\TextSegment.h \
 		include\knowledgebase.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtCore\QMap \
+		include\chat_window.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtGui\QDragEnterEvent \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtGui\QDropEvent \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtCore\QMimeData \
@@ -2851,8 +2855,8 @@ release\KnowledgeBaseManager.obj: src\KnowledgeBaseManager.cpp include\Knowledge
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtCore\qjsonobject.h
 
 release\chat_window.obj: src\chat_window.cpp include\chat_window.h \
-		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtWidgets\QWidget \
-		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtWidgets\qwidget.h \
+		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtWidgets\QDialog \
+		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtWidgets\qdialog.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtWidgets\qtwidgetsglobal.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtGui\qtguiglobal.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtCore\qglobal.h \
@@ -2878,6 +2882,7 @@ release\chat_window.obj: src\chat_window.cpp include\chat_window.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtCore\qversiontagging.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtGui\qtgui-config.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtWidgets\qtwidgets-config.h \
+		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtWidgets\qwidget.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtGui\qwindowdefs.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtCore\qobjectdefs.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtCore\qnamespace.h \

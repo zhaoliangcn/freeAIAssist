@@ -20,8 +20,12 @@ void MainWindow::on_actionexit_triggered() {
 }
 
 void MainWindow::on_actioncommonprompt_triggered() {
-    // 在这里实现常用系统提示操作，例如弹出提示框
-    commonSystemPromptDialog.exec();
+    commonSystemPromptDialog.show();
+}
+
+void MainWindow::on_actionchatwindow_triggered()
+{
+    chatWindow.exec();
 }
 void MainWindow::on_actionkbmanager_triggered()
 {
@@ -59,6 +63,7 @@ MainWindow::MainWindow(QWidget *parent) :
 
     connect(ui->actionkbmanage, &QAction::triggered, this, &MainWindow::on_actionkbmanager_triggered);
     
+    connect(ui->actionchat, &QAction::triggered, this, &MainWindow::on_actionchatwindow_triggered);
 }
 
 MainWindow::~MainWindow()

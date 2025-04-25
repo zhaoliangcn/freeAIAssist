@@ -15,6 +15,7 @@
 #include "commonsystempromptdialog.h"
 #include "TextSegment.h"
 #include "knowledgebase.h"
+#include "chat_window.h" 
 #include <QDragEnterEvent>
 #include <QDropEvent>
 #include <QMimeData>
@@ -43,6 +44,7 @@ private slots:
     void on_actioncommonprompt_triggered(); 
     void on_actionfileimport_triggered();
     void on_actionkbmanager_triggered();
+    void on_actionchatwindow_triggered();
 protected:
     void dragEnterEvent(QDragEnterEvent *event) override;
     void dropEvent(QDropEvent *event) override;
@@ -63,6 +65,7 @@ private:
     CommonSystemPromptDialog  commonSystemPromptDialog;
     TextSegment textSegment;
     KnowledgeBase knowledgeBase;
+    ChatWindow chatWindow;
     std::vector<QString> requests;
 };
 #endif // MAINWINDOW_H

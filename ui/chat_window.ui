@@ -32,6 +32,13 @@
      </property>
     </widget>
    </item>
+   <item>
+    <widget class="QPushButton" name="clearContextButton">
+     <property name="text">
+      <string>清理上下文</string>
+     </property>
+    </widget>
+   </item>
   </layout>
  </widget>
  <resources/>

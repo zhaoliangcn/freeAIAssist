@@ -1,7 +1,7 @@
 #ifndef CHAT_WINDOW_H
 #define CHAT_WINDOW_H
 
-#include <QWidget>
+#include <QDialog>
 #include <QNetworkAccessManager>
 #include <QNetworkReply>
 #include <QJsonDocument>
@@ -13,7 +13,7 @@ class ChatWindow;
 }
 QT_END_NAMESPACE
 
-class ChatWindow : public QWidget
+class ChatWindow : public QDialog
 {
     Q_OBJECT
 
@@ -25,10 +25,14 @@ public:
 private:
     Ui::ChatWindow *ui;
     QNetworkAccessManager *networkManager;
+    QStringList messageHistory;
+    QString currentMessage;
+    
 
 private slots:
     void handleNetworkReply(QNetworkReply *reply);
     void on_sendButton_clicked();
+    void on_clearContextButton_clicked();
 };
 
 #endif // CHAT_WINDOW_H
