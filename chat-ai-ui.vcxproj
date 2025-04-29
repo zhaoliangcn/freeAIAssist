@@ -93,7 +93,7 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>.\thirdparty\lib\libdoc2text.lib;user32.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>user32.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:\openssl\lib;C:\Utils\my_sql\mysql-5.7.25-winx64\lib;C:\Utils\postgresql\pgsql\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
       <DataExecutionPrevention>true</DataExecutionPrevention>
@@ -155,7 +155,7 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>.\thirdparty\lib\libdoc2text.lib;user32.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>user32.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:\openssl\lib;C:\Utils\my_sql\mysql-5.7.25-winx64\lib;C:\Utils\postgresql\pgsql\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
       <DataExecutionPrevention>true</DataExecutionPrevention>
@@ -199,6 +199,7 @@
     <ClCompile Include="src\KnowledgeBaseManager.cpp" />
     <ClCompile Include="src\OperationLogger.cpp" />
     <ClCompile Include="src\aiassistantconfigdialog.cpp" />
+    <ClCompile Include="src\aiconfig.cpp" />
     <ClCompile Include="src\chat_history.cpp" />
     <ClCompile Include="src\chat_window.cpp" />
     <ClCompile Include="src\commonsystempromptdialog.cpp" />
@@ -214,6 +215,7 @@
     <ClInclude Include="incldue\KnowledgeBaseManager.h" />
     <ClInclude Include="include\OperationLogger.h" />
     <QtMoc Include="include\aiassistantconfigdialog.h" />
+    <QtMoc Include="include\aiconfig.h" />
     <QtMoc Include="include\chat_history.h" />
     <QtMoc Include="include\chat_window.h" />
     <QtMoc Include="include\commonsystempromptdialog.h" />

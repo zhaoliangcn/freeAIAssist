@@ -34,6 +34,10 @@ void HttpConfigDialog::init_ui()
     
     // 设置默认token
     setToken("sk-yNhfdrrAbhSAyKQr34E569Db02504302A369747b32664d9e");
+
+
+    ui->comboBoxConfig->addItem(u8"ollama-qwen3:4b");
+    ui->comboBoxModel->addItem(u8"qwen3:4b");
     
     // 设置按钮文字
     ui->buttonBox->button(QDialogButtonBox::Ok)->setText(u8"确定");
@@ -45,7 +49,7 @@ void HttpConfigDialog::onConfigChanged(int index)
     QString config = ui->comboBoxConfig->itemText(index);
     
     if (config == u8"ollama默认配置") {
-        ui->comboBoxUrl->setCurrentText("http://localhost:11434/chat");
+        ui->comboBoxUrl->setCurrentText("http://localhost:11434/v1/chat/completions");
         ui->comboBoxModel->setCurrentText("qwen2.5-coder:3b");
     } else if (config == u8"lmstudio默认配置") {
         ui->comboBoxUrl->setCurrentText("http://localhost:1234/v1/chat/completions");
@@ -53,6 +57,11 @@ void HttpConfigDialog::onConfigChanged(int index)
     } else if (config == u8"onapi默认配置") {
         ui->comboBoxUrl->setCurrentText("http://localhost:3000/v1/chat/completions");
         ui->comboBoxModel->setCurrentText("qwen2.5-coder-7b-instruct");
+        setToken("sk-yNhfdrrAbhSAyKQr34E569Db02504302A369747b32664d9e");
+    }
+    else if (config == u8"ollama-qwen3:4b") {
+        ui->comboBoxUrl->setCurrentText("http://localhost:11434/v1/chat/completions");
+        ui->comboBoxModel->setCurrentText("qwen3:4b");
     }
 }
 

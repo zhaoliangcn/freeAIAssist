@@ -30,8 +30,10 @@ public:
     QString getRole() const;
     void setRole(const QString &role);
     QString getRolePrompt() const;
-    void setRolePrompt(const QString &prompt);
-    
+    void setRolePrompt(const QString &prompt);    
+    QString getConfigID() const;
+    void setConfigID(const QString &id);
+
 private:
     explicit AIConfig(QObject *parent = nullptr);
    
@@ -46,7 +48,9 @@ private:
     QString  Token;
     QString  Role;
     QString  RolePrompt;
+    QString  ConfigID;
 
 };
+
 
 #endif // AICONFIG_H

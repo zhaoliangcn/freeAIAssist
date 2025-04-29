@@ -31,6 +31,7 @@ void AIConfig::saveConfig(const QJsonObject &config)
         fullConfig["Token"] = Token;
         fullConfig["Role"] = Role;
         fullConfig["RolePrompt"] = RolePrompt;
+        fullConfig["ConfigID"] = ConfigID;
         QJsonDocument doc(fullConfig);
         file.write(doc.toJson());
         file.close();
@@ -53,6 +54,7 @@ QJsonObject AIConfig::loadConfig()
         Token = config["Token"].toString();
         Role = config["Role"].toString();
         RolePrompt = config["RolePrompt"].toString();
+        ConfigID = config["ConfigID"].toString();
         file.close();
     }
     return config;
@@ -126,4 +128,14 @@ QString AIConfig::getRolePrompt() const
 void AIConfig::setRolePrompt(const QString &prompt)
 {
     RolePrompt = prompt;
+}
+
+QString AIConfig::getConfigID() const
+{
+    return ConfigID;
+}
+
+void AIConfig::setConfigID(const QString &id)
+{
+    ConfigID = id;
 }
