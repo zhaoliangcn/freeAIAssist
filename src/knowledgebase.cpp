@@ -16,7 +16,8 @@ KnowledgeBase::KnowledgeBase(QWidget *parent) :
 }
 void KnowledgeBase::listAllKnowledgeBase()
 {
-    QDir dir("KnowledgeBase");
+    QString absPath = QCoreApplication::applicationDirPath() + "/KnowledgeBase";
+    QDir dir(absPath);
     QStringList dirs = dir.entryList(QDir::Dirs | QDir::NoDotAndDotDot);
     ui->comboBoxKB->clear();
     ui->comboBoxKB->addItems(dirs);
@@ -62,7 +63,7 @@ void KnowledgeBase::removeDocument(const QString &id)
 
 void KnowledgeBase::on_selectDir_clicked()
 {
-    QString dirPath = QFileDialog::getExistingDirectory(this, tr("选择目录"), QDir::homePath());
+    QString dirPath = QFileDialog::getExistingDirectory(this, tr(u8"选择目录"), QDir::homePath());
     if (!dirPath.isEmpty()) {
         // 这里可以添加处理目录路径的逻辑
         ui->searchInput->setText(dirPath);

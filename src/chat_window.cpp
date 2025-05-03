@@ -1,4 +1,4 @@
-#include "chat_window.h"
+﻿#include "chat_window.h"
 #include "ui_chat_window.h"
 #include "OperationLogger.h"
 #include "aiconfig.h"
