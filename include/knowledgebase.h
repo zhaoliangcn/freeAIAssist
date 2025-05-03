@@ -34,6 +34,9 @@ private slots:
     void on_newKnowledgeBase_clicked();
     void showEvent(QShowEvent *event) override;
 
+private slots:
+    void on_comboBoxKB_currentIndexChanged(int index);
+
 private:
     Ui::KnowledgeBase *ui;
     QMap<QString, QString> documents;

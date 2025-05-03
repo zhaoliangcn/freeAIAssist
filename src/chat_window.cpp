@@ -73,7 +73,7 @@ void ChatWindow::sendMessage(const QString &message)
     request.setHeader(QNetworkRequest::ContentTypeHeader, "application/json");
 
     QJsonObject json;
-    json["model"] = "qwen2.5-coder-3b-instruct";
+    json["model"] = AIConfig::instance().getModel();
     QJsonArray messagesArray;
     for (const QString &history : messageHistory) {
         if (history.startsWith("**用户**")) {

@@ -29,8 +29,7 @@ void HttpConfigDialog::init_ui()
             this, &HttpConfigDialog::onConfigChanged);
     
     // 设置默认URL和模型
-    ui->comboBoxUrl->setCurrentText("http://localhost:1234/v1/chat/completions");
-    ui->comboBoxModel->setCurrentText("qwen2.5-coder-3b-instruct");
+    ui->comboBoxConfig->setCurrentText(u8"ollama默认配置");
     
     // 设置默认token
     setToken("sk-yNhfdrrAbhSAyKQr34E569Db02504302A369747b32664d9e");

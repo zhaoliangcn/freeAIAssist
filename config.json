@@ -1,13 +1,13 @@
 {
     "AssistantIdentity": "",
     "ConfigID": "",
-    "Model": "qwen2.5-coder-3b-instruct",
+    "Model": "qwen3:4b",
     "Role": "",
     "RolePrompt": "",
     "SystemPrompt": "",
     "Token": "sk-yNhfdrrAbhSAyKQr34E569Db02504302A369747b32664d9e",
-    "Url": "http://localhost:1234/v1/chat/completions",
-    "model": "qwen2.5-coder-3b-instruct",
+    "Url": "http://localhost:11434/v1/chat/completions",
+    "model": "qwen3:4b",
     "token": "sk-yNhfdrrAbhSAyKQr34E569Db02504302A369747b32664d9e",
-    "url": "http://localhost:1234/v1/chat/completions"
+    "url": "http://localhost:11434/v1/chat/completions"
 }

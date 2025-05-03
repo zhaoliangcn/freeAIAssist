@@ -114,18 +114,26 @@ void KnowledgeBase::on_importFiles_clicked() {
         QMessageBox::information(this, tr("Error"), tr("Please input a name for the knowledge base."));
         return; 
     }
-    // 从 documentList 中获取所有文件路径列表
-    QList<QListWidgetItem*> items = ui->documentList->findItems("*", Qt::MatchWildcard);
-    QStringList filePaths      = QStringList();
-    foreach(QListWidgetItem* item, items) {
-        filePaths.append(item->data(Qt::UserRole).toString());        
+    QList<QListWidgetItem*> selectedItems = ui->documentList->selectedItems();
+    QStringList filePaths;
+    foreach(QListWidgetItem* item, selectedItems) {
+        filePaths.append(item->data(Qt::UserRole).toString());
     }
-    //全部导入
+    if(filePaths.isEmpty()) {
+        QMessageBox::information(this, tr("Error"), tr("No files selected."));
+        return;
+    }
     foreach(QString filePath, filePaths) {
-        AddFile(filePath);  
+        AddFile(filePath);
     }
-
+    QMessageBox::information(this, tr("Success"), tr("Files imported successfully."));
 }
+void KnowledgeBase::on_comboBoxKB_currentIndexChanged(int index)
+{
+    knowledgebasename = ui->comboBoxKB->itemText(index);
+    // TODO: 根据选择的知识库更新相关UI
+}
+
 void KnowledgeBase::on_newKnowledgeBase_clicked()
 {
     knowledgebasename = ui->comboBoxKB->currentText();
