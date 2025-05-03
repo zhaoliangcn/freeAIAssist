@@ -7,6 +7,7 @@
 #include <QJsonDocument>
 #include <QJsonObject>
 #include <QJsonArray>
+#include "mcpclient.h"
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class ChatWindow;
@@ -27,12 +28,18 @@ private:
     QNetworkAccessManager *networkManager;
     QStringList messageHistory;
     QString currentMessage;
-    
+
+    // MCP client related members
+    MCPClient* mcpClient;
 
 private slots:
     void handleNetworkReply(QNetworkReply *reply);
     void on_sendButton_clicked();
     void on_clearContextButton_clicked();
+
+
+    void handleMCPMessage(const QByteArray &message);
+    void handleMCPError(const QString &error);
 };
 
 #endif // CHAT_WINDOW_H

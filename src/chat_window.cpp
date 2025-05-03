@@ -4,14 +4,19 @@
 #include "aiconfig.h"
 
 
+
 ChatWindow::ChatWindow(QWidget *parent) :
     QDialog(parent),
-    ui(new Ui::ChatWindow)
+    ui(new Ui::ChatWindow),
+    mcpClient(nullptr)
 {
     ui->setupUi(this);
     setWindowFlags(windowFlags() | Qt::WindowMinimizeButtonHint | Qt::WindowMaximizeButtonHint);
     networkManager = new QNetworkAccessManager(this);
     connect(networkManager, &QNetworkAccessManager::finished, this, &ChatWindow::handleNetworkReply);
+    mcpClient = new MCPClient(this);
+    connect(mcpClient, &MCPClient::messageReceived, this, &ChatWindow::handleMCPMessage);
+    connect(mcpClient, &MCPClient::errorOccurred, this, &ChatWindow::handleMCPError);
 }
 
 void ChatWindow::sendMessage(const QString &message)
@@ -62,6 +67,36 @@ void ChatWindow::on_clearContextButton_clicked()
     ui->chatDisplay->clear();
 }
 
+void ChatWindow::handleMCPMessage(const QByteArray &message)
+{
+    QJsonDocument jsonDoc = QJsonDocument::fromJson(message);
+    if (!jsonDoc.isNull() && jsonDoc.isObject()) {
+        QJsonObject jsonObj = jsonDoc.object();
+        if (jsonObj.contains("results") && jsonObj["results"].isArray()) {
+            QJsonArray resultsArray = jsonObj["results"].toArray();
+            QString content = "百度搜索结果：\n";
+            for (const auto &result : resultsArray) {
+                if (result.isObject()) {
+                    QJsonObject resultObj = result.toObject();
+                    if (resultObj.contains("title") && resultObj.contains("link")) {
+                        content += QString("• %1 [%2]\n")
+                            .arg(resultObj["title"].toString())
+                            .arg(resultObj["link"].toString());
+                    }
+                }
+            }
+            messageHistory.append(QString("**MCP**: %1").arg(content));
+            ui->chatDisplay->setMarkdown(messageHistory.join("\n\n"));
+        }
+    }
+}
+
+void ChatWindow::handleMCPError(const QString &error)
+{
+    messageHistory.append(QString("**MCP错误**: %1").arg(error));
+    ui->chatDisplay->setMarkdown(messageHistory.join("\n\n"));
+}
+
 void ChatWindow::handleNetworkReply(QNetworkReply *reply)
 {
     QString errorMessage;
@@ -106,4 +141,5 @@ void ChatWindow::handleNetworkReply(QNetworkReply *reply)
 ChatWindow::~ChatWindow()
 {
     delete ui;
+    delete mcpClient;
 }

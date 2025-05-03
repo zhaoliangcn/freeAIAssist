@@ -1,5 +1,6 @@
 {
     "AssistantIdentity": "",
+    "ConfigID": "",
     "Model": "qwen2.5-coder-3b-instruct",
     "Role": "",
     "RolePrompt": "",

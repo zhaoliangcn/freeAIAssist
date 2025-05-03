@@ -1,5 +1,4 @@
-QT += core gui network
-QT += core gui widgets network texttospeech
+QT += core gui network widgets texttospeech
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -20,7 +19,8 @@ SOURCES += src/main.cpp \
            src/knowledgebase.cpp \
            src/KnowledgeBaseManager.cpp \
            src/chat_window.cpp \
-           src/aiconfig.cpp
+           src/aiconfig.cpp \
+           src/mcpclient.cpp
 
 # 头文件
 HEADERS += include/mainwindow.h \
@@ -35,7 +35,8 @@ HEADERS += include/mainwindow.h \
            include/knowledgebase.h \
            incldue/KnowledgeBaseManager.h \
            include/chat_window.h \
-           include/aiconfig.h
+           include/aiconfig.h \
+           include/mcpclient.h
 
 # UI 文件
 FORMS += ui/mainwindow.ui \
