@@ -3166,7 +3166,14 @@ debug\chat_window.obj: src\chat_window.cpp include\chat_window.h \
 		ui_chat_window.h \
 		include\OperationLogger.h \
 		include\aiconfig.h \
-		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtCore\QMutex
+		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtCore\QMutex \
+		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtCore\QDir \
+		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtCore\qdir.h \
+		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtCore\qfileinfo.h \
+		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtCore\QCoreApplication \
+		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtCore\qcoreapplication.h \
+		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtCore\qeventloop.h \
+		include\ContentInject.hpp
 
 debug\aiconfig.obj: src\aiconfig.cpp include\aiconfig.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtCore\QObject \

@@ -28,15 +28,19 @@ private:
     QNetworkAccessManager *networkManager;
     QStringList messageHistory;
     QString currentMessage;
+    QString currentKnowledgeBase;
 
     // MCP client related members
     MCPClient* mcpClient;
+
+
+    void  initKnowledgeBaseList();
 
 private slots:
     void handleNetworkReply(QNetworkReply *reply);
     void on_sendButton_clicked();
     void on_clearContextButton_clicked();
-
+    void on_knowledgeBaseComboBox_currentIndexChanged(const QString &text);
 
     void handleMCPMessage(const QByteArray &message);
     void handleMCPError(const QString &error);

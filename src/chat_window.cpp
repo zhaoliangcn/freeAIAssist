@@ -2,7 +2,9 @@
 #include "ui_chat_window.h"
 #include "OperationLogger.h"
 #include "aiconfig.h"
-
+#include <QDir>
+#include <QCoreApplication>
+#include "ContentInject.hpp"
 
 
 ChatWindow::ChatWindow(QWidget *parent) :
@@ -17,10 +19,55 @@ ChatWindow::ChatWindow(QWidget *parent) :
     mcpClient = new MCPClient(this);
     connect(mcpClient, &MCPClient::messageReceived, this, &ChatWindow::handleMCPMessage);
     connect(mcpClient, &MCPClient::errorOccurred, this, &ChatWindow::handleMCPError);
+
+    // Initialize knowledge base list
+    initKnowledgeBaseList();
+}
+
+void ChatWindow::initKnowledgeBaseList()
+{
+    QString absPath = QCoreApplication::applicationDirPath() + "/KnowledgeBase";
+    QDir dir(absPath);
+    if (!dir.exists()) {
+        dir.mkpath(".");
+    }
+    QStringList knowledgeBases = dir.entryList(QDir::Dirs | QDir::NoDotAndDotDot);
+    knowledgeBases.prepend(u8"无");
+    ui->knowledgeBaseComboBox->addItems(knowledgeBases);
+    connect(ui->knowledgeBaseComboBox, &QComboBox::currentTextChanged, this, &ChatWindow::on_knowledgeBaseComboBox_currentIndexChanged);
 }
 
 void ChatWindow::sendMessage(const QString &message)
 {
+    ContextInjector injector;
+
+    bool useKB = false;
+    std::string prompt ;
+    // 添加知识库内容作为上下文
+    QString knowledgeBasePath = QCoreApplication::applicationDirPath() + "/KnowledgeBase/" + currentKnowledgeBase;
+    QDir knowledgeBaseDir(knowledgeBasePath);
+    QStringList files = knowledgeBaseDir.entryList(QDir::Files);
+    foreach (const QString &file, files) {
+        QFile f(knowledgeBasePath + "/" + file);
+        if (f.open(QIODevice::ReadOnly | QIODevice::Text)) {
+            QString content = f.readAll();
+            injector.add_context(file.toStdString(), content.toStdString(), 0.9f);
+            f.close();
+        }
+    }
+    if(files.size() > 0) {
+        useKB = true;
+    }
+    if(useKB) {
+        // 生成带上下文的prompt
+       prompt = injector.generate_prompt(
+            u8"技术专家",
+            message.toStdString(),
+            AIConfig::instance().getSystemPrompt().toStdString()
+        );
+    }
+    
+
     QNetworkRequest request;
     request.setUrl(QUrl(AIConfig::instance().getUrl()));
     request.setHeader(QNetworkRequest::ContentTypeHeader, "application/json");
@@ -41,10 +88,20 @@ void ChatWindow::sendMessage(const QString &message)
             }));
         }
     }
-    messagesArray.append(QJsonObject({
-        {"role", "user"},
-        {"content", message}
-    }));
+    if(useKB) {
+        messagesArray.append(QJsonObject({
+            {"role", "user"},
+            {"content", prompt.c_str()}
+        }));
+    }
+    else
+    {
+        messagesArray.append(QJsonObject({
+            {"role", "user"},
+            {"content", message}
+        }));
+    }
+
     json["messages"] = messagesArray;
 
     networkManager->post(request, QJsonDocument(json).toJson());
@@ -89,6 +146,11 @@ void ChatWindow::handleMCPMessage(const QByteArray &message)
             ui->chatDisplay->setMarkdown(messageHistory.join("\n\n"));
         }
     }
+}
+
+void ChatWindow::on_knowledgeBaseComboBox_currentIndexChanged(const QString &text)
+{
+    currentKnowledgeBase = text;
 }
 
 void ChatWindow::handleMCPError(const QString &error)

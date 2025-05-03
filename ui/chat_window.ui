@@ -39,6 +39,17 @@ QLabel {
    <item>
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
+    <widget class="QLabel" name="labelSystemPrompt">
+     <property name="text">
+      <string>知识库</string>
+     </property>
+    </widget>
+   </item>
+     <item>
+      <widget class="QComboBox" name="knowledgeBaseComboBox">
+      </widget>
+     </item>
+     <item>
       <widget class="QLineEdit" name="chatInput">
        <property name="placeholderText">
         <string>输入消息...</string>
