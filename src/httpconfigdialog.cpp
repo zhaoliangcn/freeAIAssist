@@ -28,8 +28,7 @@ void HttpConfigDialog::init_ui()
     connect(ui->comboBoxConfig, QOverload<int>::of(&QComboBox::currentIndexChanged),
             this, &HttpConfigDialog::onConfigChanged);
     
-    // 设置默认URL和模型
-    ui->comboBoxConfig->setCurrentText(u8"ollama默认配置");
+
     
     // 设置默认token
     setToken("sk-yNhfdrrAbhSAyKQr34E569Db02504302A369747b32664d9e");
@@ -37,6 +36,12 @@ void HttpConfigDialog::init_ui()
 
     ui->comboBoxConfig->addItem(u8"ollama-qwen3:4b");
     ui->comboBoxModel->addItem(u8"qwen3:4b");
+
+
+    // 设置默认URL和模型
+    ui->comboBoxConfig->setCurrentText(u8"ollama默认配置");
+    ui->comboBoxUrl->setCurrentText("http://localhost:11434/v1/chat/completions");
+    ui->comboBoxModel->setCurrentText("qwen2.5-coder:3b");
     
     // 设置按钮文字
     ui->buttonBox->button(QDialogButtonBox::Ok)->setText(u8"确定");

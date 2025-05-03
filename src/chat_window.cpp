@@ -76,7 +76,7 @@ void ChatWindow::sendMessage(const QString &message)
     json["model"] = AIConfig::instance().getModel();
     QJsonArray messagesArray;
     for (const QString &history : messageHistory) {
-        if (history.startsWith("**用户**")) {
+        if (history.startsWith(u8"**User**")) {
             messagesArray.append(QJsonObject({
                 {"role", "user"},
                 {"content", history.mid(7)}
