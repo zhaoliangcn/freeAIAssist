@@ -11,6 +11,7 @@ TextSegment::TextSegment(QWidget *parent) :
 {
     ui->setupUi(this);
     ui->option2->setChecked(true);
+
 }
 
 TextSegment::~TextSegment()

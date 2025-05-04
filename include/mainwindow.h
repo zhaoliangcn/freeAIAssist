@@ -19,6 +19,7 @@
 #include <QDragEnterEvent>
 #include <QDropEvent>
 #include <QMimeData>
+#include <QTranslator>
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -52,6 +53,7 @@ protected:
 private:
     void SimpleRequest();
     void RequestWithContext();
+    void changeLanguage(const QString &lang);
     Ui::MainWindow *ui;
     QNetworkAccessManager *networkManager;
     QString url;
@@ -67,5 +69,7 @@ private:
     KnowledgeBase knowledgeBase;
     ChatWindow chatWindow;
     std::vector<QString> requests;
+    QJsonObject translations;
+    QTranslator translator;
 };
 #endif // MAINWINDOW_H

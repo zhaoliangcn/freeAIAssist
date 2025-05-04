@@ -1,0 +1,27 @@
+{
+  "en": {
+    "appTitle": "AI Assistant",
+    "settings": "Settings",
+    "language": "Language"
+  },
+  "zh": {
+    "appTitle": "AI助手",
+    "settings": "设置",
+    "language": "语言"
+  },
+  "fr": {
+    "appTitle": "Assistant IA",
+    "settings": "Paramètres",
+    "language": "Langue"
+  },
+  "ru": {
+    "appTitle": "ИИ Помощник",
+    "settings": "Настройки",
+    "language": "Язык"
+  },
+  "it": {
+    "appTitle": "Assistente AI",
+    "settings": "Impostazioni",
+    "language": "Lingua"
+  }
+}

@@ -40,7 +40,22 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    
+
+    // 语言切换功能
+    QFile translationsFile(":/i18n/translations.json");
+    if (translationsFile.open(QIODevice::ReadOnly | QIODevice::Text)) {
+        QByteArray jsonData = translationsFile.readAll();
+        translationsFile.close();
+        QJsonDocument jsonDoc = QJsonDocument::fromJson(jsonData);
+        translations = jsonDoc.object();
+    }
+
+    connect(ui->languageSelector, QOverload<int>::of(&QComboBox::currentIndexChanged),
+        [this](int index){
+            QString lang = ui->languageSelector->itemText(index);
+            changeLanguage(lang);
+        });
+
     // 启用拖放支持
     setAcceptDrops(true);
     networkManager = new QNetworkAccessManager(this);
@@ -64,6 +79,8 @@ MainWindow::MainWindow(QWidget *parent) :
     connect(ui->actionkbmanage, &QAction::triggered, this, &MainWindow::on_actionkbmanager_triggered);
     
     connect(ui->actionchat, &QAction::triggered, this, &MainWindow::on_actionchatwindow_triggered);
+
+    
 }
 
 MainWindow::~MainWindow()
@@ -215,6 +232,15 @@ void MainWindow::on_pushButton_selectFile2_clicked()
 void MainWindow::on_pushButton_3_clicked()
 {
     speechwindow.exec();
+}
+
+void MainWindow::changeLanguage(const QString &lang)
+{
+    QString translationFile = ":/i18n/" + lang + ".qm";
+    if (translator.load(translationFile)) {
+        qApp->installTranslator(&translator);
+        ui->retranslateUi(this);
+    }
 }
 void MainWindow::SimpleRequest()
 {
