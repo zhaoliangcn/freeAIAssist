@@ -53,6 +53,20 @@ MainWindow::MainWindow(QWidget *parent) :
     connect(ui->languageSelector, QOverload<int>::of(&QComboBox::currentIndexChanged),
         [this](int index){
             QString lang = ui->languageSelector->itemText(index);
+            if (lang == "English") {
+                lang = "en"; // 这里可以根据实际情况设置语言代码
+            } else if (lang == "中文") {
+                lang = "zh"; // 这里可以根据实际情况设置语言代码    
+            }
+            else if (lang == "Français") {
+                lang = "fr"; // 这里可以根据实际情况设置语言代码
+            }
+            else if (lang == "Русский") {
+                lang = "ru"; // 这里可以根据实际情况设置语言代码
+            }
+            else if (lang == "Italiano") {
+                lang = "it"; // 这里可以根据实际情况设置语言代码
+            }
             changeLanguage(lang);
         });
 
@@ -240,6 +254,10 @@ void MainWindow::changeLanguage(const QString &lang)
     if (translator.load(translationFile)) {
         qApp->installTranslator(&translator);
         ui->retranslateUi(this);
+    }
+    else
+    {
+        qDebug() << "Failed to load translation file: " << translationFile;
     }
 }
 void MainWindow::SimpleRequest()
