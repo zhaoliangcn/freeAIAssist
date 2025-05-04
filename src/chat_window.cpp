@@ -4,14 +4,17 @@
 #include "aiconfig.h"
 #include <QDir>
 #include <QCoreApplication>
+#include <QtConcurrent/QtConcurrent>
 #include "ContentInject.hpp"
 
 
 ChatWindow::ChatWindow(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::ChatWindow),
+    enableTTS(false),
     mcpClient(nullptr)
 {
+ 
     ui->setupUi(this);
     setWindowFlags(windowFlags() | Qt::WindowMinimizeButtonHint | Qt::WindowMaximizeButtonHint);
     networkManager = new QNetworkAccessManager(this);
@@ -22,6 +25,9 @@ ChatWindow::ChatWindow(QWidget *parent) :
 
     // Initialize knowledge base list
     initKnowledgeBaseList();
+
+    // Connect TTS checkbox signal
+    connect(ui->ttsCheckBox, &QCheckBox::stateChanged, this, &ChatWindow::on_ttsCheckBox_stateChanged);
 }
 
 void ChatWindow::initKnowledgeBaseList()
@@ -39,6 +45,13 @@ void ChatWindow::initKnowledgeBaseList()
 
 void ChatWindow::sendMessage(const QString &message)
 {
+
+    if (enableTTS) {
+        QtConcurrent::run([this, message]() {
+            speechwindow.SpeekText(message);
+        });
+    }
+
     ContextInjector injector;
 
     bool useKB = false;
@@ -76,7 +89,7 @@ void ChatWindow::sendMessage(const QString &message)
     json["model"] = AIConfig::instance().getModel();
     QJsonArray messagesArray;
     for (const QString &history : messageHistory) {
-        if (history.startsWith(u8"**User**")) {
+        if (history.startsWith(u8"**用户**")) {
             messagesArray.append(QJsonObject({
                 {"role", "user"},
                 {"content", history.mid(7)}
@@ -159,6 +172,11 @@ void ChatWindow::handleMCPError(const QString &error)
     ui->chatDisplay->setMarkdown(messageHistory.join("\n\n"));
 }
 
+void ChatWindow::on_ttsCheckBox_stateChanged(int state)
+{
+    enableTTS = state == Qt::Checked;
+}
+
 void ChatWindow::handleNetworkReply(QNetworkReply *reply)
 {
     QString errorMessage;
@@ -180,9 +198,14 @@ void ChatWindow::handleNetworkReply(QNetworkReply *reply)
                                 OperationLogger logger;
                                 logger.logRequestResponse(currentMessage.toStdString(), content.toStdString());
         
-                                messageHistory.append(QString("**用户**: %1").arg(currentMessage));
+                                messageHistory.append(QString(u8"**用户**: %1").arg(currentMessage));
                                 messageHistory.append(QString("**AI**: %1").arg(content));
                                 ui->chatDisplay->setMarkdown(messageHistory.join("\n\n"));
+                                if (enableTTS) {
+                                    QtConcurrent::run([this, content]() {
+                                        speechwindow.SpeekText(content);
+                                    });
+                                }
                             }
                         }
                     }

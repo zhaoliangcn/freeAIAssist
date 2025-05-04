@@ -72,6 +72,13 @@ QLabel {
      </item>
     </layout>
    </item>
+   <item>
+    <widget class="QCheckBox" name="ttsCheckBox">
+     <property name="text">
+      <string>启用TTS语音</string>
+     </property>
+    </widget>
+   </item>
   </layout>
  </widget>
  <resources/>

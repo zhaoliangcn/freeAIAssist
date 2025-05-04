@@ -9,3 +9,4 @@ include_temp
 ui_temp
 .qmake.stash
 .vscode/
+chat_ai_operations.log

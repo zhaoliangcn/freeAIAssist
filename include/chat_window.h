@@ -8,6 +8,7 @@
 #include <QJsonObject>
 #include <QJsonArray>
 #include "mcpclient.h"
+#include "speechwindow.h"
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class ChatWindow;
@@ -36,6 +37,8 @@ private:
 
     void  initKnowledgeBaseList();
 
+    bool enableTTS;
+    SpeechWindow  speechwindow;
 private slots:
     void handleNetworkReply(QNetworkReply *reply);
     void on_sendButton_clicked();
@@ -44,6 +47,9 @@ private slots:
 
     void handleMCPMessage(const QByteArray &message);
     void handleMCPError(const QString &error);
+
+private slots:
+    void on_ttsCheckBox_stateChanged(int state);
 };
 
 #endif // CHAT_WINDOW_H
