@@ -236,7 +236,7 @@ void MainWindow::on_pushButton_3_clicked()
 
 void MainWindow::changeLanguage(const QString &lang)
 {
-    QString translationFile = ":/i18n/" + lang + ".qm";
+    QString translationFile = ":/i18n/translations" + lang + ".qm";
     if (translator.load(translationFile)) {
         qApp->installTranslator(&translator);
         ui->retranslateUi(this);
