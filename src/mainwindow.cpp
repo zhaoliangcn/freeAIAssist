@@ -3,6 +3,7 @@
 #include <QDebug>
 #include <QFileDialog>
 #include <QFileInfo>
+#include <QMessageBox>
 #include "filedig.h"
 #include "ContentInject.hpp"
 #include <QtConcurrent/QtConcurrent>
@@ -55,7 +56,7 @@ MainWindow::MainWindow(QWidget *parent) :
             QString lang = ui->languageSelector->itemText(index);
             if (lang == "English") {
                 lang = "en"; // 这里可以根据实际情况设置语言代码
-            } else if (lang == "中文") {
+            } else if (lang == u8"中文") {
                 lang = "zh"; // 这里可以根据实际情况设置语言代码    
             }
             else if (lang == "Français") {
@@ -250,13 +251,15 @@ void MainWindow::on_pushButton_3_clicked()
 
 void MainWindow::changeLanguage(const QString &lang)
 {
-    QString translationFile = ":/i18n/translations" + lang + ".qm";
+    QString translationFile = QCoreApplication::applicationDirPath() + "/i18n/translations_" + lang + ".qm";
     if (translator.load(translationFile)) {
         qApp->installTranslator(&translator);
         ui->retranslateUi(this);
+        //QMessageBox::information(this, tr(u8"调试信息"), tr(u8"成功加载语言文件: %1").arg(translationFile));
     }
     else
     {
+        //QMessageBox::warning(this, tr(u8"调试信息"), tr(u8"加载语言文件失败: %1").arg(translationFile));
         qDebug() << "Failed to load translation file: " << translationFile;
     }
 }

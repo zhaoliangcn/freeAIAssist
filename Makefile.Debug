@@ -1944,6 +1944,8 @@ debug\mainwindow.obj: src\mainwindow.cpp include\mainwindow.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtCore\qdir.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtCore\qfileinfo.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtCore\QFileInfo \
+		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtWidgets\QMessageBox \
+		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtWidgets\qmessagebox.h \
 		include\filedig.h \
 		include\ContentInject.hpp \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtConcurrent\QtConcurrent \
