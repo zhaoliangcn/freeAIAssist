@@ -1,0 +1,74 @@
+/* 主窗口样式 */
+QMainWindow {
+    background-image: url(:/ui/images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #f0f0f0;
+}
+
+/* 文本编辑框样式 */
+QTextEdit, QPlainTextEdit {
+    background-color: rgba(255, 255, 255, 220);
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+/* 标签样式 */
+QLabel {
+    color: #333333;
+}
+
+/* 按钮样式 */
+QPushButton {
+    background-color: rgba(255, 255, 255, 220);
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: 4px;
+}
+QPushButton:hover {
+    background-color: rgba(255, 255, 255, 255);
+}
+QPushButton:pressed {
+    background-color: rgba(230, 230, 230, 255);
+}
+QPushButton:disabled {
+    background-color: rgba(200, 200, 200, 220);
+}
+
+/* 输入框样式 */
+QLineEdit {
+    background-color: rgba(255, 255, 255, 220);
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+/* 下拉菜单样式 */
+QComboBox {
+    background-color: rgba(255, 255, 255, 220);
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+/* 表格样式 */
+QTableWidget {
+    background-color: rgba(255, 255, 255, 220);
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+/* 分组框样式 */
+QGroupBox {
+    background-color: rgba(255, 255, 255, 200);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* 状态栏样式 */
+QStatusBar {
+    background-color: rgba(255, 255, 255, 200);
+}

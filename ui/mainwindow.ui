@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>600</height>
+    <height>693</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -33,6 +33,60 @@ QLabel {
   </property>
   <widget class="QWidget" name="centralWidget">
    <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>选择界面样式</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="styleSelector">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>200</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="currentText">
+         <string>深色</string>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <item>
+         <property name="text">
+          <string>深色</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>默认</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>自定义</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout_2">
       <item>
@@ -270,41 +324,33 @@ QLabel {
      </widget>
     </item>
     <item>
-      <widget class="QComboBox" name="languageSelector">
-   <property name="geometry">
-    <rect>
-     <x>650</x>
-     <y>10</y>
-     <width>120</width>
-     <height>30</height>
-    </rect>
-   </property>
-   <item>
-    <property name="text">
-     <string>中文</string>
-    </property>
-   </item>
-   <item>
-    <property name="text">
-     <string>English</string>
-    </property>
-   </item>
-   <item>
-    <property name="text">
-     <string>Français</string>
-    </property>
-   </item>
-   <item>
-    <property name="text">
-     <string>Русский</string>
-    </property>
-   </item>
-   <item>
-    <property name="text">
-     <string>Italiano</string>
-    </property>
-   </item>
-  </widget>
+     <widget class="QComboBox" name="languageSelector">
+      <item>
+       <property name="text">
+        <string>中文</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>English</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Français</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Русский</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Italiano</string>
+       </property>
+      </item>
+     </widget>
     </item>
    </layout>
   </widget>
@@ -314,7 +360,7 @@ QLabel {
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>22</height>
+     <height>26</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuSystem">

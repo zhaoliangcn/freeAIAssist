@@ -17,11 +17,14 @@ ChatWindow::ChatWindow(QWidget *parent) :
  
     ui->setupUi(this);
     setWindowFlags(windowFlags() | Qt::WindowMinimizeButtonHint | Qt::WindowMaximizeButtonHint);
+
     networkManager = new QNetworkAccessManager(this);
     connect(networkManager, &QNetworkAccessManager::finished, this, &ChatWindow::handleNetworkReply);
+
     mcpClient = new MCPClient(this);
     connect(mcpClient, &MCPClient::messageReceived, this, &ChatWindow::handleMCPMessage);
     connect(mcpClient, &MCPClient::errorOccurred, this, &ChatWindow::handleMCPError);
+
 
     // Initialize knowledge base list
     initKnowledgeBaseList();
@@ -60,16 +63,17 @@ void ChatWindow::sendMessage(const QString &message)
     QString knowledgeBasePath = QCoreApplication::applicationDirPath() + "/KnowledgeBase/" + currentKnowledgeBase;
     QDir knowledgeBaseDir(knowledgeBasePath);
     QStringList files = knowledgeBaseDir.entryList(QDir::Files);
-    foreach (const QString &file, files) {
-        QFile f(knowledgeBasePath + "/" + file);
-        if (f.open(QIODevice::ReadOnly | QIODevice::Text)) {
-            QString content = f.readAll();
-            injector.add_context(file.toStdString(), content.toStdString(), 0.9f);
-            f.close();
-        }
-    }
+    
     if(files.size() > 0) {
         useKB = true;
+        foreach (const QString &file, files) {
+            QFile f(knowledgeBasePath + "/" + file);
+            if (f.open(QIODevice::ReadOnly | QIODevice::Text)) {
+                QString content = f.readAll();
+                injector.add_context(file.toStdString(), content.toStdString(), 0.9f);
+                f.close();
+            }
+        }
     }
     if(useKB) {
         // 生成带上下文的prompt
@@ -84,6 +88,9 @@ void ChatWindow::sendMessage(const QString &message)
     QNetworkRequest request;
     request.setUrl(QUrl(AIConfig::instance().getUrl()));
     request.setHeader(QNetworkRequest::ContentTypeHeader, "application/json");
+
+    QByteArray token = "Bearer " + AIConfig::instance().getToken().toUtf8();
+    request.setRawHeader(QByteArray("Authorization"),QByteArray(token));
 
     QJsonObject json;
     json["model"] = AIConfig::instance().getModel();
@@ -115,7 +122,14 @@ void ChatWindow::sendMessage(const QString &message)
         }));
     }
 
+    QJsonObject jsonDataSystemMessage;
+    jsonDataSystemMessage["role"]="system";
+    jsonDataSystemMessage["content"]=getSystemPrompt().toStdString().c_str();
+    messagesArray.append(jsonDataSystemMessage);
+
     json["messages"] = messagesArray;
+
+
 
     networkManager->post(request, QJsonDocument(json).toJson());
 }
@@ -227,4 +241,13 @@ ChatWindow::~ChatWindow()
 {
     delete ui;
     delete mcpClient;
+}
+
+void ChatWindow::setSystemPrompt(const QString &prompt)
+{
+    systemPrompt = prompt;
+}
+QString ChatWindow::getSystemPrompt() const
+{
+    return systemPrompt;
 }

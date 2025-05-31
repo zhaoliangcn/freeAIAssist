@@ -26,6 +26,7 @@ void MainWindow::on_actioncommonprompt_triggered() {
 
 void MainWindow::on_actionchatwindow_triggered()
 {
+    chatWindow.setSystemPrompt(assistconfig.getAssistantIdentity());
     chatWindow.exec();
 }
 void MainWindow::on_actionkbmanager_triggered()
@@ -40,8 +41,44 @@ MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
+
+
+
     ui->setupUi(this);
 
+    // 初始化样式选择器
+ //   ui->styleSelector = new QComboBox(this);
+    connect(ui->styleSelector, QOverload<int>::of(&QComboBox::currentIndexChanged),
+    [this](int index){
+        QString style = ui->styleSelector->itemText(index);
+        if(style == "默认") {
+            qApp->setStyleSheet("");
+        }
+        else if (style == "深色") {
+            //获取当前程序路径 
+            QString currentPath = QCoreApplication::applicationDirPath();
+            //拼接路径
+            QString filePath = currentPath + "/styles/dark.qss";
+            QFile file(filePath);
+            if (file.open(QFile::ReadOnly | QFile::Text)) {
+                QString styleSheet = QLatin1String(file.readAll());
+                qApp->setStyleSheet(styleSheet);
+                file.close();
+            }
+        } else if (style == "自定义") {
+            //获取当前程序路径 
+            QString currentPath = QCoreApplication::applicationDirPath();
+            //拼接路径
+            QString filePath = currentPath + "/styles/custom.qss";
+            QFile file(filePath);
+            if (file.open(QFile::ReadOnly | QFile::Text)) {
+                QString styleSheet = QLatin1String(file.readAll());
+                qApp->setStyleSheet(styleSheet);
+                file.close();
+            }
+        }
+    });
+    
     // 语言切换功能
     QFile translationsFile(":/i18n/translations.json");
     if (translationsFile.open(QIODevice::ReadOnly | QIODevice::Text)) {
@@ -57,6 +94,9 @@ MainWindow::MainWindow(QWidget *parent) :
             if (lang == "English") {
                 lang = "en"; // 这里可以根据实际情况设置语言代码
             } else if (lang == u8"中文") {
+                lang = "zh"; // 这里可以根据实际情况设置语言代码    
+            }
+            else if (lang == u8"Chinese") {
                 lang = "zh"; // 这里可以根据实际情况设置语言代码    
             }
             else if (lang == "Français") {
@@ -326,6 +366,9 @@ void MainWindow::SimpleRequest()
   //  QNetworkRequest request(QUrl("http://localhost:1234/v1/chat/completions"));
     QNetworkRequest request(QUrl(configdlg.getUrl()));
     request.setHeader(QNetworkRequest::ContentTypeHeader, "application/json");
+
+    QByteArray token = "Bearer " + configdlg.getToken().toUtf8();
+    request.setRawHeader(QByteArray("Authorization"),QByteArray(token));
 
     networkManager->post(request, postData);
 }

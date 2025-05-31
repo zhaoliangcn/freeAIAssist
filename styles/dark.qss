@@ -1,0 +1,77 @@
+/* 深色主题样式 */
+QMainWindow {
+    background-color: #2d2d2d;
+}
+
+/* 文本编辑框样式 */
+QTextEdit, QPlainTextEdit {
+    background-color: #3d3d3d;
+    color: #ffffff;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+/* 标签样式 */
+QLabel {
+    color: #cccccc;
+}
+
+/* 按钮样式 */
+QPushButton {
+    background-color: #444444;
+    color: #ffffff;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    padding: 4px;
+}
+QPushButton:hover {
+    background-color: #555555;
+}
+QPushButton:pressed {
+    background-color: #666666;
+}
+QPushButton:disabled {
+    background-color: #333333;
+}
+
+/* 输入框样式 */
+QLineEdit {
+    background-color: #3d3d3d;
+    color: #ffffff;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+/* 下拉菜单样式 */
+QComboBox {
+    background-color: #3d3d3d;
+    color: #ffffff;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+/* 表格样式 */
+QTableWidget {
+    background-color: #3d3d3d;
+    color: #ffffff;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+/* 分组框样式 */
+QGroupBox {
+    background-color: #3d3d3d;
+    color: #cccccc;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* 状态栏样式 */
+QStatusBar {
+    background-color: #3d3d3d;
+    color: #cccccc;
+}

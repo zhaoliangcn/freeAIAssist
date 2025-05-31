@@ -101,9 +101,9 @@ void HttpConfigDialog::saveConfig()
     config.setModel(ui->comboBoxModel->currentText());
     config.setToken(ui->lineEditToken->text());
     QJsonObject jsonConfig;
-    jsonConfig["url"] = ui->comboBoxUrl->currentText();
-    jsonConfig["model"] = ui->comboBoxModel->currentText();
-    jsonConfig["token"] = ui->lineEditToken->text();
+    jsonConfig["Url"] = ui->comboBoxUrl->currentText();
+    jsonConfig["Model"] = ui->comboBoxModel->currentText();
+    jsonConfig["Token"] = ui->lineEditToken->text();
     config.saveConfig(jsonConfig);
 }
 

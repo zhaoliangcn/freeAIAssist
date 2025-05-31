@@ -1764,7 +1764,8 @@ release\main.obj: src\main.cpp include\mainwindow.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtWidgets\qdesktopwidget.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtGui\qguiapplication.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtGui\qinputmethod.h \
-		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtGui\QIcon
+		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtGui\QIcon \
+		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtNetwork\QSslSocket
 
 release\mainwindow.obj: src\mainwindow.cpp include\mainwindow.h \
 		C:\Qt\Qt5.14.1\5.14.1\msvc2017_64\include\QtWidgets\QMainWindow \

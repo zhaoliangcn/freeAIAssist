@@ -23,13 +23,15 @@ public:
     void sendMessage(const QString &message);
     explicit ChatWindow(QWidget *parent = nullptr);
     ~ChatWindow();
-
+    void setSystemPrompt(const QString &prompt);
+    QString getSystemPrompt() const;
 private:
     Ui::ChatWindow *ui;
     QNetworkAccessManager *networkManager;
     QStringList messageHistory;
     QString currentMessage;
     QString currentKnowledgeBase;
+    QString systemPrompt;
 
     // MCP client related members
     MCPClient* mcpClient;

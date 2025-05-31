@@ -6,11 +6,21 @@
 #include "winsock2.h"
 #include <windows.h>
 #endif
+#include <QtNetwork/QSslSocket>
+
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
 
+
+    if (QSslSocket::supportsSsl()) {
+        qDebug() << "SSL is supported!";
+        std::cerr << "SSL is supported!" << std::endl;
+    } else {
+        qDebug() << "SSL is NOT supported!";
+        std::cerr << "SSL is NOT supported!" << std::endl;
+    }
 
 #ifdef _WIN32
     //隐藏一个控制台窗口，使得在之后用popen来启shell窗口的时候，不显示黑窗口，或者避免黑窗口一闪而过的情况
